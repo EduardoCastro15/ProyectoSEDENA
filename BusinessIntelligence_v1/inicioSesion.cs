@@ -16,5 +16,27 @@ namespace BusinessIntelligence_v1
         {
             InitializeComponent();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form formulario1 = new Form1();
+            formulario1.Show();
+            this.Hide();
+        }
+
+        private void inicioSesion_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
