@@ -1,0 +1,11 @@
+C:\Users\georg\Source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\bin\Debug\BusinessIntelligence_v1.exe.config
+C:\Users\georg\Source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\bin\Debug\BusinessIntelligence_v1.exe
+C:\Users\georg\Source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\bin\Debug\BusinessIntelligence_v1.pdb
+C:\Users\georg\Source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.csproj.AssemblyReference.cache
+C:\Users\georg\Source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.Properties.Resources.resources
+C:\Users\georg\Source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.csproj.GenerateResource.cache
+C:\Users\georg\Source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.csproj.CoreCompileInputs.cache
+C:\Users\georg\Source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.exe
+C:\Users\georg\Source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.pdb
+C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.Form1.resources
+C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.inicioSesion.resources
