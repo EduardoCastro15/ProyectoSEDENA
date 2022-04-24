@@ -9,3 +9,5 @@ C:\Users\georg\Source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\Bus
 C:\Users\georg\Source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.pdb
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.Form1.resources
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.inicioSesion.resources
+C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormInicio.resources
+C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormNuevoUsuario.resources

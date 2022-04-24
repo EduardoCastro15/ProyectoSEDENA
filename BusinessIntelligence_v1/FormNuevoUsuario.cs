@@ -10,21 +10,23 @@ using System.Windows.Forms;
 
 namespace BusinessIntelligence_v1
 {
-    public partial class inicioSesion : Form
+    public partial class FormNuevoUsuario : Form
     {
-        public inicioSesion()
+        public FormNuevoUsuario()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
+            Form formulario1 = new inicioSesion();
+            formulario1.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -34,16 +36,9 @@ namespace BusinessIntelligence_v1
             this.Hide();
         }
 
-        private void inicioSesion_FormClosed(object sender, FormClosedEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Form formulario1 = new FormNuevoUsuario();
-            formulario1.Show();
-            this.Hide();
         }
     }
 }
