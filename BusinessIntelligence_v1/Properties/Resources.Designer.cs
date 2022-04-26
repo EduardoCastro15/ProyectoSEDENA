@@ -83,6 +83,46 @@ namespace BusinessIntelligence_v1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap escudo_emi_dim {
+            get {
+                object obj = ResourceManager.GetObject("escudo_emi_dim", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap escudo_emi_dim1 {
+            get {
+                object obj = ResourceManager.GetObject("escudo_emi_dim1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap escudo_emi_dim2 {
+            get {
+                object obj = ResourceManager.GetObject("escudo_emi_dim2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap escudo_emi_dim3 {
+            get {
+                object obj = ResourceManager.GetObject("escudo_emi_dim3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap escudo_emi1 {
             get {
                 object obj = ResourceManager.GetObject("escudo_emi1", resourceCulture);

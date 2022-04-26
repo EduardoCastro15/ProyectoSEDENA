@@ -71,5 +71,10 @@ namespace BusinessIntelligence_v1
         {
             Application.Exit();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormBI>();
+        }
     }
 }

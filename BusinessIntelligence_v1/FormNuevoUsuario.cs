@@ -40,5 +40,10 @@ namespace BusinessIntelligence_v1
         {
             Application.Exit();
         }
+
+        private void FormNuevoUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

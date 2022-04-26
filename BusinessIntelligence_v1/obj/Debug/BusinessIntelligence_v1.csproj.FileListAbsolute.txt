@@ -11,3 +11,5 @@ C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\Bus
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.inicioSesion.resources
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormInicio.resources
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormNuevoUsuario.resources
+C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormBI.resources
+C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormPerfilPersonal.resources
