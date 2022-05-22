@@ -126,6 +126,12 @@
     <Compile Include="FormPerfilPersonal.Designer.cs">
       <DependentUpon>FormPerfilPersonal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTablaAdmins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTablaAdmins.Designer.cs">
+      <DependentUpon>FormTablaAdmins.cs</DependentUpon>
+    </Compile>
     <Compile Include="inicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPerfilPersonal.resx">
       <DependentUpon>FormPerfilPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTablaAdmins.resx">
+      <DependentUpon>FormTablaAdmins.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inicioSesion.resx">
       <DependentUpon>inicioSesion.cs</DependentUpon>

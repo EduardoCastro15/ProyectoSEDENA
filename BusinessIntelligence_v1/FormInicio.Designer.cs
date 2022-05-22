@@ -160,6 +160,7 @@ namespace BusinessIntelligence_v1
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormInicio";
             this.Text = "FormInicio";
+            this.Load += new System.EventHandler(this.FormInicio_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel6.ResumeLayout(false);

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace BusinessIntelligence_v1
 {
@@ -16,6 +17,10 @@ namespace BusinessIntelligence_v1
         {
             InitializeComponent();
         }
+
+        private MySqlConnection conn;
+        private MySqlCommand cmd;
+        private string sql = null;
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -56,7 +61,44 @@ namespace BusinessIntelligence_v1
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            panel6.Visible = true;
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("El campo de matrícula está vacío");
+            }
+            else
+            {
+                try
+                {
+                    conn.Open();
+                    sql = @"select crack_user('" + textBox1.Text + "')";
+                    cmd = new MySqlCommand(sql, conn);
+                    //cmd.Parameters.AddWithValue("_user", textBox1.Text);
+                    //cmd.Parameters.AddWithValue("_password", textBox2.Text);
+                    int result = (int)cmd.ExecuteScalar();
+                    conn.Close();
+                    if (result == 1)
+                    {
+                        MessageBox.Show("Se encontró la matrícula: " + textBox1.Text);
+                        panel6.Visible = true;
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se encontró la matrícula", "Búsqueda fallida", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        return;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message, "Algo salió mal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    conn.Close();
+                }
+            }
+        }
+
+        private void FormInicio_Load(object sender, EventArgs e)
+        {
+            BusinessIntelligence_v1.ConexionBD conexion = new BusinessIntelligence_v1.ConexionBD();
+            conn = conexion.ConectarMysql();
         }
     }
 }

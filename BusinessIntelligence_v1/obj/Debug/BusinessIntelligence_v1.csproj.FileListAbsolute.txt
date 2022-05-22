@@ -37,3 +37,4 @@ C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\bin\Debug\Sys
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.csproj.CopyComplete
+C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormTablaAdmins.resources

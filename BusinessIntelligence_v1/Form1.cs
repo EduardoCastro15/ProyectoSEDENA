@@ -81,5 +81,10 @@ namespace BusinessIntelligence_v1
         {
             AbrirFormularios<FormBI>();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormTablaAdmins>();
+        }
     }
 }

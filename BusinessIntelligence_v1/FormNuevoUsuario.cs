@@ -20,7 +20,7 @@ namespace BusinessIntelligence_v1
 
         private MySqlConnection conn;
         private MySqlCommand cmd;
-        private string sql = null;
+        //private string sql = null;
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
