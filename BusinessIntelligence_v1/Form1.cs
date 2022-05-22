@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace BusinessIntelligence_v1
 {
@@ -17,6 +18,10 @@ namespace BusinessIntelligence_v1
             InitializeComponent();
             AbrirFormularios<FormInicio>();
         }
+
+        private MySqlConnection conn;
+        private MySqlCommand cmd;
+        private string sql = null;
 
         private void button2_Click(object sender, EventArgs e)
         {

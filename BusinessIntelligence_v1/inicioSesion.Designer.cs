@@ -213,6 +213,7 @@ namespace BusinessIntelligence_v1
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BusinessIntelligence";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.inicioSesion_FormClosed);
+            this.Load += new System.EventHandler(this.inicioSesion_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
