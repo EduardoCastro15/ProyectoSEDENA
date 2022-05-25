@@ -72,6 +72,7 @@
       <HintPath>packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -108,6 +109,30 @@
     <Compile Include="FormBI.Designer.cs">
       <DependentUpon>FormBI.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDatosAcademicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatosAcademicos.Designer.cs">
+      <DependentUpon>FormDatosAcademicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDatosDeportivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatosDeportivos.Designer.cs">
+      <DependentUpon>FormDatosDeportivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDatosMedicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatosMedicos.Designer.cs">
+      <DependentUpon>FormDatosMedicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHorario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHorario.Designer.cs">
+      <DependentUpon>FormHorario.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormInicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,11 +145,11 @@
     <Compile Include="FormNuevoUsuario.Designer.cs">
       <DependentUpon>FormNuevoUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPerfilPersonal.cs">
+    <Compile Include="FormDatosPersonales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPerfilPersonal.Designer.cs">
-      <DependentUpon>FormPerfilPersonal.cs</DependentUpon>
+    <Compile Include="FormDatosPersonales.Designer.cs">
+      <DependentUpon>FormDatosPersonales.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTablaAdmins.cs">
       <SubType>Form</SubType>
@@ -155,8 +180,8 @@
     <EmbeddedResource Include="FormNuevoUsuario.resx">
       <DependentUpon>FormNuevoUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPerfilPersonal.resx">
-      <DependentUpon>FormPerfilPersonal.cs</DependentUpon>
+    <EmbeddedResource Include="FormDatosPersonales.resx">
+      <DependentUpon>FormDatosPersonales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTablaAdmins.resx">
       <DependentUpon>FormTablaAdmins.cs</DependentUpon>

@@ -21,6 +21,7 @@ namespace BusinessIntelligence_v1
         private MySqlConnection conn;
         private MySqlCommand cmd;
         private string sql = null;
+        public string matricula = null;
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -34,7 +35,7 @@ namespace BusinessIntelligence_v1
 
         private void button7_Click(object sender, EventArgs e)
         {
-            AbrirFormularios<FormPerfilPersonal>();
+            AbrirFormularios<FormDatosPersonales>();
         }
 
         private void AbrirFormularios<FormCifrado>() where FormCifrado : Form, new()
@@ -76,9 +77,11 @@ namespace BusinessIntelligence_v1
                     //cmd.Parameters.AddWithValue("_password", textBox2.Text);
                     int result = (int)cmd.ExecuteScalar();
                     conn.Close();
+                    panel6.Visible = true;
                     if (result == 1)
                     {
                         MessageBox.Show("Se encontró la matrícula: " + textBox1.Text);
+                        matricula = textBox1.Text;
                         panel6.Visible = true;
                     }
                     else
@@ -99,6 +102,26 @@ namespace BusinessIntelligence_v1
         {
             BusinessIntelligence_v1.ConexionBD conexion = new BusinessIntelligence_v1.ConexionBD();
             conn = conexion.ConectarMysql();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormDatosMedicos>();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormDatosDeportivos>();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormDatosDeportivos>();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormHorario>();
         }
     }
 }

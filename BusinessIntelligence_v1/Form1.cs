@@ -86,5 +86,10 @@ namespace BusinessIntelligence_v1
         {
             AbrirFormularios<FormTablaAdmins>();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormAgregarDiscente>();
+        }
     }
 }

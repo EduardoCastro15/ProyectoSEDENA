@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace BusinessIntelligence_v1
 {
-    public partial class FormPerfilPersonal : Form
+    public partial class FormDatosMedicos : Form
     {
-        public FormPerfilPersonal()
+        public FormDatosMedicos()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -40,6 +40,8 @@ namespace BusinessIntelligence_v1
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -70,6 +72,8 @@ namespace BusinessIntelligence_v1
             // 
             // panel6
             // 
+            this.panel6.Controls.Add(this.button3);
+            this.panel6.Controls.Add(this.button2);
             this.panel6.Controls.Add(this.button9);
             this.panel6.Controls.Add(this.button8);
             this.panel6.Controls.Add(this.button7);
@@ -85,8 +89,9 @@ namespace BusinessIntelligence_v1
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(190, 23);
             this.button9.TabIndex = 9;
-            this.button9.Text = "INSCRIPCIÓN ACTUAL";
+            this.button9.Text = "DATOS DEPORTIVOS";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 
@@ -94,8 +99,9 @@ namespace BusinessIntelligence_v1
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(190, 23);
             this.button8.TabIndex = 8;
-            this.button8.Text = "DATOS ACADÉMICOS";
+            this.button8.Text = "DATOS MÉDICOS";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -147,6 +153,26 @@ namespace BusinessIntelligence_v1
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(3, 99);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(190, 23);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "DATOS ACADÉMICOS";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(3, 128);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(190, 23);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "HORARIO";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // FormInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -182,5 +208,7 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
     }
 }

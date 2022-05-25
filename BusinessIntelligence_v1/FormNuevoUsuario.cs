@@ -37,29 +37,36 @@ namespace BusinessIntelligence_v1
         private void button1_Click(object sender, EventArgs e)
         {
             Form formulario1 = new Form1();
-            try
+            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" || textBox5.Text == "")
             {
-                conn.Open();
-                cmd = new MySqlCommand();
-                cmd.Connection = conn;
-                cmd.CommandText = ("insert into usuarios(matricula, nombre, apellido_paterno, apellido_materno, contrasena) values('" + textBox4.Text + "', '" + textBox1.Text + "', '" + textBox2.Text + "', '" + textBox3.Text + "', '" + textBox5.Text + "');");
-                cmd.ExecuteNonQuery();
-                conn.Close();
-
-                MessageBox.Show("El usuario se agregó con éxito");
-                textBox1.Text = "";
-                textBox2.Text = "";
-                textBox3.Text = "";
-                textBox4.Text = "";
-                textBox5.Text = "";
-
-                formulario1.Show();
-                this.Hide();
+                MessageBox.Show("Llena todos los campos");
             }
-            catch(Exception ex)
+            else
             {
-                MessageBox.Show("Error: " + ex.Message, "Algo salió mal", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                conn.Close();
+                try
+                {
+                    conn.Open();
+                    cmd = new MySqlCommand();
+                    cmd.Connection = conn;
+                    cmd.CommandText = ("insert into usuarios(matricula, nombre, apellido_paterno, apellido_materno, contrasena) values('" + textBox4.Text + "', '" + textBox1.Text + "', '" + textBox2.Text + "', '" + textBox3.Text + "', '" + textBox5.Text + "');");
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+
+                    MessageBox.Show("El usuario se agregó con éxito");
+                    textBox1.Text = "";
+                    textBox2.Text = "";
+                    textBox3.Text = "";
+                    textBox4.Text = "";
+                    textBox5.Text = "";
+
+                    formulario1.Show();
+                    this.Hide();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message, "Algo salió mal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    conn.Close();
+                }
             }
         }
 
