@@ -20,8 +20,7 @@ namespace BusinessIntelligence_v1
 
         private MySqlConnection conn;
         private MySqlCommand cmd;
-        private string sql = null;
-        BusinessIntelligence_v1.FormInicio matricula = new BusinessIntelligence_v1.FormInicio();
+        //private string sql = null;
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -41,14 +40,32 @@ namespace BusinessIntelligence_v1
         private void FormDatosPersonales_Load(object sender, EventArgs e)
         {
             BusinessIntelligence_v1.ConexionBD conexion = new BusinessIntelligence_v1.ConexionBD();
+            //BusinessIntelligence_v1.FormInicio matricula = new BusinessIntelligence_v1.FormInicio();
+            string matricula = "2015080213";
             conn = conexion.ConectarMysql();
 
-            conn.Open();
-            cmd = new MySqlCommand();
-            cmd.Connection = conn;
-            cmd.CommandText = ("insert into usuarios(matricula, nombre, apellido_paterno, apellido_materno, contrasena) values('" + textBox4.Text + "', '" + textBox1.Text + "', '" + textBox2.Text + "', '" + textBox3.Text + "', '" + textBox5.Text + "');");
-            cmd.ExecuteNonQuery();
-            conn.Close();
+            try
+            {
+                conn.Open();
+                cmd = new MySqlCommand();
+                cmd.Connection = conn;
+                cmd.CommandText = ("select * from discentes where matricula_discente = '" + matricula + "' ");
+                MySqlDataReader leer = cmd.ExecuteReader();
+                if (leer.Read() == true)
+                {
+                    textBox1.Text = leer["matricula_discente"].ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Error");
+                }
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Algo salió mal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                conn.Close();
+            }
 
         }
     }

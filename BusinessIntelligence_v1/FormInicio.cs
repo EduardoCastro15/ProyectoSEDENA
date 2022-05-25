@@ -77,7 +77,6 @@ namespace BusinessIntelligence_v1
                     //cmd.Parameters.AddWithValue("_password", textBox2.Text);
                     int result = (int)cmd.ExecuteScalar();
                     conn.Close();
-                    panel6.Visible = true;
                     if (result == 1)
                     {
                         MessageBox.Show("Se encontró la matrícula: " + textBox1.Text);
