@@ -31,6 +31,38 @@ namespace BusinessIntelligence_v1
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.label45 = new System.Windows.Forms.Label();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.label44 = new System.Windows.Forms.Label();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label39 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
@@ -89,40 +121,13 @@ namespace BusinessIntelligence_v1
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.label45 = new System.Windows.Forms.Label();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.label46 = new System.Windows.Forms.Label();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -135,7 +140,11 @@ namespace BusinessIntelligence_v1
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox28);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.label49);
             this.panel1.Controls.Add(this.label48);
             this.panel1.Controls.Add(this.label47);
             this.panel1.Controls.Add(this.label46);
@@ -233,6 +242,392 @@ namespace BusinessIntelligence_v1
             this.panel1.Size = new System.Drawing.Size(1156, 538);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.Color.White;
+            this.label48.Location = new System.Drawing.Point(5, 489);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(85, 12);
+            this.label48.TabIndex = 115;
+            this.label48.Text = "RUTA DEL ARCHIVO:";
+            this.label48.Click += new System.EventHandler(this.label48_Click);
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.Color.White;
+            this.label47.Location = new System.Drawing.Point(126, 464);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(173, 20);
+            this.label47.TabIndex = 114;
+            this.label47.Text = "HORARIO DEL DICENTE:";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.White;
+            this.label46.Location = new System.Drawing.Point(667, 190);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(59, 12);
+            this.label46.TabIndex = 113;
+            this.label46.Text = "ASOCIACIÓN";
+            // 
+            // textBox27
+            // 
+            this.textBox27.Location = new System.Drawing.Point(732, 187);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(216, 20);
+            this.textBox27.TabIndex = 112;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.Color.White;
+            this.label45.Location = new System.Drawing.Point(667, 167);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(45, 12);
+            this.label45.TabIndex = 111;
+            this.label45.Text = "HORARIO:";
+            // 
+            // textBox26
+            // 
+            this.textBox26.Location = new System.Drawing.Point(718, 161);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(230, 20);
+            this.textBox26.TabIndex = 110;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.ForeColor = System.Drawing.Color.White;
+            this.label44.Location = new System.Drawing.Point(667, 138);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(34, 12);
+            this.label44.TabIndex = 109;
+            this.label44.Text = "LUGAR:";
+            // 
+            // textBox21
+            // 
+            this.textBox21.Location = new System.Drawing.Point(707, 135);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(241, 20);
+            this.textBox21.TabIndex = 108;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(748, 109);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker2.TabIndex = 107;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.Color.White;
+            this.label43.Location = new System.Drawing.Point(667, 115);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(75, 12);
+            this.label43.TabIndex = 106;
+            this.label43.Text = "FECHA DE INICIO:";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.Color.White;
+            this.label42.Location = new System.Drawing.Point(667, 86);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(54, 12);
+            this.label42.TabIndex = 105;
+            this.label42.Text = "CATEGORÍA:";
+            // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(727, 83);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(221, 20);
+            this.textBox20.TabIndex = 104;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.Color.White;
+            this.label41.Location = new System.Drawing.Point(667, 63);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(121, 12);
+            this.label41.TabIndex = 103;
+            this.label41.Text = "NOMBRE DEL ENTRENADOR:";
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(793, 57);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(155, 20);
+            this.textBox15.TabIndex = 102;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.Color.White;
+            this.label40.Location = new System.Drawing.Point(667, 34);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(45, 12);
+            this.label40.TabIndex = 101;
+            this.label40.Text = "DEPORTE:";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(718, 31);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(230, 20);
+            this.textBox14.TabIndex = 100;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.Color.White;
+            this.label38.Location = new System.Drawing.Point(699, 8);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(249, 20);
+            this.label38.TabIndex = 99;
+            this.label38.Text = "DATOS DEPORTIVOS DEL DICENTE:";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.Location = new System.Drawing.Point(482, 361);
+            this.textBox12.Multiline = true;
+            this.textBox12.Name = "textBox12";
+            this.textBox12.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox12.Size = new System.Drawing.Size(152, 49);
+            this.textBox12.TabIndex = 98;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(482, 257);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox5.Size = new System.Drawing.Size(152, 49);
+            this.textBox5.TabIndex = 97;
+            // 
+            // comboBox12
+            // 
+            this.comboBox12.FormattingEnabled = true;
+            this.comboBox12.Items.AddRange(new object[] {
+            "AGUASCALIENTES",
+            "BAJA CALIFORNIA",
+            "BAJA CALIFORNIA SUR",
+            "CAMPECHE",
+            "COAHUILA",
+            "COLIMA",
+            "CHIAPAS",
+            "CHIHUAHUA",
+            "CIUDAD DE MEXICO",
+            "DURANGO",
+            "GUANAJUATO",
+            "GUERRERO",
+            "HIDALGO",
+            "JALISCO",
+            "MEXICO",
+            "MICHOACAN",
+            "MORELOS",
+            "NAYARIT",
+            "NUEVO LEON",
+            "OAXACA",
+            "PUEBLA",
+            "QUERETARO",
+            "QUINTANA ROO",
+            "SAN LUIS POTOSI",
+            "SINALOA",
+            "SONORA",
+            "TABASCO",
+            "TAMAULIPAS",
+            "TLAXCALA",
+            "VERACRUZ",
+            "YUCATAN",
+            "ZACATECAS"});
+            this.comboBox12.Location = new System.Drawing.Point(144, 369);
+            this.comboBox12.Name = "comboBox12";
+            this.comboBox12.Size = new System.Drawing.Size(290, 20);
+            this.comboBox12.TabIndex = 96;
+            // 
+            // comboBox11
+            // 
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Items.AddRange(new object[] {
+            "INGENIERÍA Y CIENCIAS FÍSICO MATEMÁTICAS",
+            "CIENCIAS MÉDICO BIOLÓGICAS",
+            "CIENCIAS SOCIALES Y ADMINISTRATIVAS"});
+            this.comboBox11.Location = new System.Drawing.Point(154, 343);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(280, 20);
+            this.comboBox11.TabIndex = 95;
+            // 
+            // comboBox10
+            // 
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Items.AddRange(new object[] {
+            "AGUASCALIENTES",
+            "BAJA CALIFORNIA",
+            "BAJA CALIFORNIA SUR",
+            "CAMPECHE",
+            "COAHUILA",
+            "COLIMA",
+            "CHIAPAS",
+            "CHIHUAHUA",
+            "CIUDAD DE MEXICO",
+            "DURANGO",
+            "GUANAJUATO",
+            "GUERRERO",
+            "HIDALGO",
+            "JALISCO",
+            "MEXICO",
+            "MICHOACAN",
+            "MORELOS",
+            "NAYARIT",
+            "NUEVO LEON",
+            "OAXACA",
+            "PUEBLA",
+            "QUERETARO",
+            "QUINTANA ROO",
+            "SAN LUIS POTOSI",
+            "SINALOA",
+            "SONORA",
+            "TABASCO",
+            "TAMAULIPAS",
+            "TLAXCALA",
+            "VERACRUZ",
+            "YUCATAN",
+            "ZACATECAS"});
+            this.comboBox10.Location = new System.Drawing.Point(125, 187);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(309, 20);
+            this.comboBox10.TabIndex = 94;
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Items.AddRange(new object[] {
+            "Masculino",
+            "Femenino"});
+            this.comboBox9.Location = new System.Drawing.Point(40, 161);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(109, 20);
+            this.comboBox9.TabIndex = 93;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(251, 161);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(183, 20);
+            this.dateTimePicker1.TabIndex = 92;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "OFICIAL",
+            "CADETE"});
+            this.comboBox8.Location = new System.Drawing.Point(85, 83);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(128, 20);
+            this.comboBox8.TabIndex = 91;
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox7.Location = new System.Drawing.Point(528, 493);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(106, 20);
+            this.comboBox7.TabIndex = 90;
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox6.Location = new System.Drawing.Point(540, 467);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(94, 20);
+            this.comboBox6.TabIndex = 89;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox5.Location = new System.Drawing.Point(536, 416);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(98, 20);
+            this.comboBox5.TabIndex = 88;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox4.Location = new System.Drawing.Point(585, 322);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(49, 20);
+            this.comboBox4.TabIndex = 87;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox3.Location = new System.Drawing.Point(570, 213);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(64, 20);
+            this.comboBox3.TabIndex = 86;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox2.Location = new System.Drawing.Point(588, 109);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(46, 20);
+            this.comboBox2.TabIndex = 85;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "A+",
+            "A-",
+            "B+",
+            "B-",
+            "AB+",
+            "AB-",
+            "O+",
+            "O-"});
+            this.comboBox1.Location = new System.Drawing.Point(560, 83);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(74, 20);
+            this.comboBox1.TabIndex = 84;
             // 
             // label39
             // 
@@ -780,11 +1175,11 @@ namespace BusinessIntelligence_v1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 12);
+            this.label1.Size = new System.Drawing.Size(54, 12);
             this.label1.TabIndex = 12;
             this.label1.Text = "MATRÍCULA:";
             // 
@@ -800,295 +1195,55 @@ namespace BusinessIntelligence_v1
             this.label2.Text = "DATOS PERSONALES DEL DICENTE:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(560, 83);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(74, 20);
-            this.comboBox1.TabIndex = 84;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(588, 109);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(46, 20);
-            this.comboBox2.TabIndex = 85;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(570, 213);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(64, 20);
-            this.comboBox3.TabIndex = 86;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(585, 322);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(49, 20);
-            this.comboBox4.TabIndex = 87;
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(536, 416);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(98, 20);
-            this.comboBox5.TabIndex = 88;
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(540, 467);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(94, 20);
-            this.comboBox6.TabIndex = 89;
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(528, 493);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(106, 20);
-            this.comboBox7.TabIndex = 90;
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(85, 83);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(128, 20);
-            this.comboBox8.TabIndex = 91;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(251, 161);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(183, 20);
-            this.dateTimePicker1.TabIndex = 92;
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(40, 161);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(109, 20);
-            this.comboBox9.TabIndex = 93;
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(125, 187);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(309, 20);
-            this.comboBox10.TabIndex = 94;
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(154, 343);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(280, 20);
-            this.comboBox11.TabIndex = 95;
-            // 
-            // comboBox12
-            // 
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(144, 369);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(290, 20);
-            this.comboBox12.TabIndex = 96;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(482, 257);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox5.Size = new System.Drawing.Size(152, 49);
-            this.textBox5.TabIndex = 97;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(482, 361);
-            this.textBox12.Multiline = true;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox12.Size = new System.Drawing.Size(152, 49);
-            this.textBox12.TabIndex = 98;
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.Color.White;
-            this.label38.Location = new System.Drawing.Point(699, 8);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(249, 20);
-            this.label38.TabIndex = 99;
-            this.label38.Text = "DATOS DEPORTIVOS DEL DICENTE:";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(667, 34);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(45, 12);
-            this.label40.TabIndex = 101;
-            this.label40.Text = "DEPORTE:";
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(718, 31);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(230, 20);
-            this.textBox14.TabIndex = 100;
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.ForeColor = System.Drawing.Color.White;
-            this.label41.Location = new System.Drawing.Point(667, 63);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(121, 12);
-            this.label41.TabIndex = 103;
-            this.label41.Text = "NOMBRE DEL ENTRENADOR:";
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(793, 57);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(155, 20);
-            this.textBox15.TabIndex = 102;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(667, 86);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(54, 12);
-            this.label42.TabIndex = 105;
-            this.label42.Text = "CATEGORÍA:";
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(727, 83);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(221, 20);
-            this.textBox20.TabIndex = 104;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(748, 109);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 107;
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.White;
-            this.label43.Location = new System.Drawing.Point(667, 115);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(75, 12);
-            this.label43.TabIndex = 106;
-            this.label43.Text = "FECHA DE INICIO:";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.ForeColor = System.Drawing.Color.White;
-            this.label44.Location = new System.Drawing.Point(667, 138);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(34, 12);
-            this.label44.TabIndex = 109;
-            this.label44.Text = "LUGAR:";
-            // 
-            // textBox21
-            // 
-            this.textBox21.Location = new System.Drawing.Point(707, 135);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(241, 20);
-            this.textBox21.TabIndex = 108;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.Color.White;
-            this.label45.Location = new System.Drawing.Point(667, 167);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(45, 12);
-            this.label45.TabIndex = 111;
-            this.label45.Text = "HORARIO:";
-            // 
-            // textBox26
-            // 
-            this.textBox26.Location = new System.Drawing.Point(718, 161);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(230, 20);
-            this.textBox26.TabIndex = 110;
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.ForeColor = System.Drawing.Color.White;
-            this.label46.Location = new System.Drawing.Point(667, 190);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(59, 12);
-            this.label46.TabIndex = 113;
-            this.label46.Text = "ASOCIACIÓN";
-            // 
-            // textBox27
-            // 
-            this.textBox27.Location = new System.Drawing.Point(732, 187);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(216, 20);
-            this.textBox27.TabIndex = 112;
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.ForeColor = System.Drawing.Color.White;
-            this.label47.Location = new System.Drawing.Point(126, 464);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(173, 20);
-            this.label47.TabIndex = 114;
-            this.label47.Text = "HORARIO DEL DICENTE:";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.ForeColor = System.Drawing.Color.White;
-            this.label48.Location = new System.Drawing.Point(5, 489);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(85, 12);
-            this.label48.TabIndex = 115;
-            this.label48.Text = "RUTA DEL ARCHIVO:";
-            this.label48.Click += new System.EventHandler(this.label48_Click);
-            // 
-            // textBox28
-            // 
-            this.textBox28.Location = new System.Drawing.Point(96, 486);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(338, 20);
-            this.textBox28.TabIndex = 116;
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.White;
+            this.label49.Location = new System.Drawing.Point(5, 424);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(30, 12);
+            this.label49.TabIndex = 117;
+            this.label49.Text = "FOTO:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(41, 419);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 118;
+            this.button1.Text = "Seleccionar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(1078, 512);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 119;
+            this.button2.Text = "AGREGAR";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(96, 484);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 120;
+            this.button3.Text = "Seleccionar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Location = new System.Drawing.Point(694, 222);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(240, 279);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 121;
+            this.pictureBox1.TabStop = false;
             // 
             // FormAgregarDiscente
             // 
@@ -1101,8 +1256,10 @@ namespace BusinessIntelligence_v1
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormAgregarDiscente";
             this.Text = "FormAgregarDiscente";
+            this.Load += new System.EventHandler(this.FormAgregarDiscente_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1201,6 +1358,10 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
