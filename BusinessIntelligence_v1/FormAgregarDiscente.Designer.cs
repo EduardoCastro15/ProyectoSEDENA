@@ -31,6 +31,10 @@ namespace BusinessIntelligence_v1
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label49 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
@@ -46,7 +50,6 @@ namespace BusinessIntelligence_v1
             this.label41 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.label40 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
             this.label38 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -121,13 +124,20 @@ namespace BusinessIntelligence_v1
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label50 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -140,6 +150,16 @@ namespace BusinessIntelligence_v1
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.label53);
+            this.panel1.Controls.Add(this.textBox28);
+            this.panel1.Controls.Add(this.label52);
+            this.panel1.Controls.Add(this.comboBox14);
+            this.panel1.Controls.Add(this.label51);
+            this.panel1.Controls.Add(this.label50);
+            this.panel1.Controls.Add(this.textBox14);
+            this.panel1.Controls.Add(this.comboBox13);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -160,7 +180,6 @@ namespace BusinessIntelligence_v1
             this.panel1.Controls.Add(this.label41);
             this.panel1.Controls.Add(this.textBox15);
             this.panel1.Controls.Add(this.label40);
-            this.panel1.Controls.Add(this.textBox14);
             this.panel1.Controls.Add(this.label38);
             this.panel1.Controls.Add(this.textBox12);
             this.panel1.Controls.Add(this.textBox5);
@@ -243,12 +262,53 @@ namespace BusinessIntelligence_v1
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(759, 457);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 120;
+            this.button3.Text = "Seleccionar";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(1078, 512);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 119;
+            this.button2.Text = "AGREGAR";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(41, 419);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 118;
+            this.button1.Text = "Seleccionar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.White;
+            this.label49.Location = new System.Drawing.Point(5, 424);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(30, 12);
+            this.label49.TabIndex = 117;
+            this.label49.Text = "FOTO:";
+            // 
             // label48
             // 
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.ForeColor = System.Drawing.Color.White;
-            this.label48.Location = new System.Drawing.Point(5, 489);
+            this.label48.Location = new System.Drawing.Point(668, 462);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(85, 12);
             this.label48.TabIndex = 115;
@@ -260,7 +320,7 @@ namespace BusinessIntelligence_v1
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.Color.White;
-            this.label47.Location = new System.Drawing.Point(126, 464);
+            this.label47.Location = new System.Drawing.Point(730, 434);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(173, 20);
             this.label47.TabIndex = 114;
@@ -271,7 +331,7 @@ namespace BusinessIntelligence_v1
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.ForeColor = System.Drawing.Color.White;
-            this.label46.Location = new System.Drawing.Point(667, 190);
+            this.label46.Location = new System.Drawing.Point(667, 216);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(59, 12);
             this.label46.TabIndex = 113;
@@ -279,7 +339,7 @@ namespace BusinessIntelligence_v1
             // 
             // textBox27
             // 
-            this.textBox27.Location = new System.Drawing.Point(732, 187);
+            this.textBox27.Location = new System.Drawing.Point(732, 213);
             this.textBox27.Name = "textBox27";
             this.textBox27.Size = new System.Drawing.Size(216, 20);
             this.textBox27.TabIndex = 112;
@@ -289,7 +349,7 @@ namespace BusinessIntelligence_v1
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.ForeColor = System.Drawing.Color.White;
-            this.label45.Location = new System.Drawing.Point(667, 167);
+            this.label45.Location = new System.Drawing.Point(667, 193);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(45, 12);
             this.label45.TabIndex = 111;
@@ -297,7 +357,7 @@ namespace BusinessIntelligence_v1
             // 
             // textBox26
             // 
-            this.textBox26.Location = new System.Drawing.Point(718, 161);
+            this.textBox26.Location = new System.Drawing.Point(718, 187);
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(230, 20);
             this.textBox26.TabIndex = 110;
@@ -307,7 +367,7 @@ namespace BusinessIntelligence_v1
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.ForeColor = System.Drawing.Color.White;
-            this.label44.Location = new System.Drawing.Point(667, 138);
+            this.label44.Location = new System.Drawing.Point(667, 164);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(34, 12);
             this.label44.TabIndex = 109;
@@ -315,14 +375,16 @@ namespace BusinessIntelligence_v1
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(707, 135);
+            this.textBox21.Location = new System.Drawing.Point(707, 161);
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(241, 20);
             this.textBox21.TabIndex = 108;
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(748, 109);
+            this.dateTimePicker2.CustomFormat = "yyyy-MM-dd";
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker2.Location = new System.Drawing.Point(748, 135);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker2.TabIndex = 107;
@@ -332,7 +394,7 @@ namespace BusinessIntelligence_v1
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.ForeColor = System.Drawing.Color.White;
-            this.label43.Location = new System.Drawing.Point(667, 115);
+            this.label43.Location = new System.Drawing.Point(667, 141);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(75, 12);
             this.label43.TabIndex = 106;
@@ -343,7 +405,7 @@ namespace BusinessIntelligence_v1
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(667, 86);
+            this.label42.Location = new System.Drawing.Point(667, 112);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(54, 12);
             this.label42.TabIndex = 105;
@@ -351,7 +413,7 @@ namespace BusinessIntelligence_v1
             // 
             // textBox20
             // 
-            this.textBox20.Location = new System.Drawing.Point(727, 83);
+            this.textBox20.Location = new System.Drawing.Point(727, 109);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(221, 20);
             this.textBox20.TabIndex = 104;
@@ -361,7 +423,7 @@ namespace BusinessIntelligence_v1
             this.label41.AutoSize = true;
             this.label41.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.ForeColor = System.Drawing.Color.White;
-            this.label41.Location = new System.Drawing.Point(667, 63);
+            this.label41.Location = new System.Drawing.Point(667, 89);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(121, 12);
             this.label41.TabIndex = 103;
@@ -369,7 +431,7 @@ namespace BusinessIntelligence_v1
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(793, 57);
+            this.textBox15.Location = new System.Drawing.Point(793, 83);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(155, 20);
             this.textBox15.TabIndex = 102;
@@ -381,27 +443,20 @@ namespace BusinessIntelligence_v1
             this.label40.ForeColor = System.Drawing.Color.White;
             this.label40.Location = new System.Drawing.Point(667, 34);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(45, 12);
+            this.label40.Size = new System.Drawing.Size(92, 12);
             this.label40.TabIndex = 101;
-            this.label40.Text = "DEPORTE:";
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(718, 31);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(230, 20);
-            this.textBox14.TabIndex = 100;
+            this.label40.Text = "PRACTICA DEPORTE?:";
             // 
             // label38
             // 
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.ForeColor = System.Drawing.Color.White;
-            this.label38.Location = new System.Drawing.Point(699, 8);
+            this.label38.Location = new System.Drawing.Point(753, 8);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(249, 20);
+            this.label38.Size = new System.Drawing.Size(150, 20);
             this.label38.TabIndex = 99;
-            this.label38.Text = "DATOS DEPORTIVOS DEL DICENTE:";
+            this.label38.Text = "DATOS DEPORTIVOS";
             // 
             // textBox12
             // 
@@ -530,10 +585,14 @@ namespace BusinessIntelligence_v1
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.CustomFormat = "yyyy-MM-dd";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker1.Location = new System.Drawing.Point(251, 161);
             this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dateTimePicker1.Size = new System.Drawing.Size(183, 20);
             this.dateTimePicker1.TabIndex = 92;
+            this.dateTimePicker1.Value = new System.DateTime(2022, 5, 31, 10, 38, 40, 0);
             // 
             // comboBox8
             // 
@@ -811,11 +870,11 @@ namespace BusinessIntelligence_v1
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(446, 8);
+            this.label25.Location = new System.Drawing.Point(492, 8);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(225, 20);
+            this.label25.Size = new System.Drawing.Size(126, 20);
             this.label25.TabIndex = 57;
-            this.label25.Text = "DATOS MÉDICOS DEL DICENTE:";
+            this.label25.Text = "DATOS MÉDICOS";
             // 
             // label23
             // 
@@ -1188,62 +1247,132 @@ namespace BusinessIntelligence_v1
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(93, 8);
+            this.label2.Location = new System.Drawing.Point(160, 8);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(250, 20);
+            this.label2.Size = new System.Drawing.Size(151, 20);
             this.label2.TabIndex = 11;
-            this.label2.Text = "DATOS PERSONALES DEL DICENTE:";
+            this.label2.Text = "DATOS PERSONALES";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label49
+            // comboBox13
             // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.Color.White;
-            this.label49.Location = new System.Drawing.Point(5, 424);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(30, 12);
-            this.label49.TabIndex = 117;
-            this.label49.Text = "FOTO:";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(41, 419);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 118;
-            this.button1.Text = "Seleccionar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(1078, 512);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 119;
-            this.button2.Text = "AGREGAR";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(96, 484);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 120;
-            this.button3.Text = "Seleccionar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.comboBox13.FormattingEnabled = true;
+            this.comboBox13.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox13.Location = new System.Drawing.Point(765, 31);
+            this.comboBox13.Name = "comboBox13";
+            this.comboBox13.Size = new System.Drawing.Size(183, 20);
+            this.comboBox13.TabIndex = 122;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(694, 222);
+            this.pictureBox1.Location = new System.Drawing.Point(954, 8);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(240, 279);
+            this.pictureBox1.Size = new System.Drawing.Size(199, 202);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 121;
             this.pictureBox1.TabStop = false;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.White;
+            this.label50.Location = new System.Drawing.Point(667, 63);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(84, 12);
+            this.label50.TabIndex = 124;
+            this.label50.Text = "NOMBRE DEPORTE:";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(757, 57);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(191, 20);
+            this.textBox14.TabIndex = 123;
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.Color.White;
+            this.label51.Location = new System.Drawing.Point(744, 288);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(156, 20);
+            this.label51.TabIndex = 125;
+            this.label51.Text = "DATOS ACADÉMICOS";
+            // 
+            // comboBox14
+            // 
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Items.AddRange(new object[] {
+            "Ingeniero constructor",
+            "Ingeniero en comunicaciones y electrónica",
+            "Ingeniero en computación e informática",
+            "Ingeniero químico industrial",
+            "Ingeniero mecánico industrial",
+            "Ingeniero electricista industrial",
+            "Administración y evaluación de proyectos",
+            "Ingeniería de costos",
+            "Sistemas de calidad",
+            "Tecnologías de la información",
+            "Ingeniería en telemática",
+            "Ingeniería automotriz"});
+            this.comboBox14.Location = new System.Drawing.Point(718, 314);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(230, 20);
+            this.comboBox14.TabIndex = 126;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.White;
+            this.label52.Location = new System.Drawing.Point(667, 317);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(45, 12);
+            this.label52.TabIndex = 127;
+            this.label52.Text = "CARRERA:";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.White;
+            this.label53.Location = new System.Drawing.Point(667, 343);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(52, 12);
+            this.label53.TabIndex = 129;
+            this.label53.Text = "PROMEDIO:";
+            // 
+            // textBox28
+            // 
+            this.textBox28.Location = new System.Drawing.Point(725, 340);
+            this.textBox28.Name = "textBox28";
+            this.textBox28.Size = new System.Drawing.Size(223, 20);
+            this.textBox28.TabIndex = 128;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(997, 512);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 130;
+            this.button4.Text = "LIMPIAR";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Location = new System.Drawing.Point(954, 216);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(199, 199);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 131;
+            this.pictureBox2.TabStop = false;
             // 
             // FormAgregarDiscente
             // 
@@ -1260,6 +1389,7 @@ namespace BusinessIntelligence_v1
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1354,7 +1484,6 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label47;
@@ -1362,6 +1491,16 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ComboBox comboBox13;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.ComboBox comboBox14;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
