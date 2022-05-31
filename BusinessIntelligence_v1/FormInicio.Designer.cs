@@ -33,15 +33,15 @@ namespace BusinessIntelligence_v1
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxMatricula = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -53,7 +53,7 @@ namespace BusinessIntelligence_v1
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.panel6);
-            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.textBoxMatricula);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Location = new System.Drawing.Point(12, 12);
             this.panel3.Name = "panel3";
@@ -82,6 +82,26 @@ namespace BusinessIntelligence_v1
             this.panel6.Size = new System.Drawing.Size(196, 441);
             this.panel6.TabIndex = 7;
             this.panel6.Visible = false;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(3, 128);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(190, 23);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "HORARIO";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(3, 99);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(190, 23);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "DATOS ACADÉMICOS";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button9
             // 
@@ -113,12 +133,12 @@ namespace BusinessIntelligence_v1
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // textBox1
+            // textBoxMatricula
             // 
-            this.textBox1.Location = new System.Drawing.Point(6, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(186, 22);
-            this.textBox1.TabIndex = 11;
+            this.textBoxMatricula.Location = new System.Drawing.Point(6, 35);
+            this.textBoxMatricula.Name = "textBoxMatricula";
+            this.textBoxMatricula.Size = new System.Drawing.Size(186, 22);
+            this.textBoxMatricula.TabIndex = 11;
             // 
             // label2
             // 
@@ -153,26 +173,6 @@ namespace BusinessIntelligence_v1
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(3, 99);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(190, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "DATOS ACADÉMICOS";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(3, 128);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(190, 23);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "HORARIO";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // FormInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -200,7 +200,7 @@ namespace BusinessIntelligence_v1
 
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxMatricula;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;

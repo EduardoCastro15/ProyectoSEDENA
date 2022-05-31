@@ -35,7 +35,27 @@ namespace BusinessIntelligence_v1
 
         private void button7_Click(object sender, EventArgs e)
         {
-            AbrirFormularios<FormDatosPersonales>();
+            FormDatosPersonales formularios;
+            formularios = panel4.Controls.OfType<FormDatosPersonales>().FirstOrDefault();
+            if (formularios == null)
+            {
+                formularios = new FormDatosPersonales()
+                {
+                    TopLevel = false,
+                    Dock = DockStyle.Fill
+                };
+                panel4.Controls.Add(formularios);
+                panel4.Tag = formularios;
+
+                formularios.textBox1.Text = matricula;
+
+                formularios.Show();
+                formularios.BringToFront();
+            }
+            else
+            {
+                formularios.BringToFront();
+            }
         }
 
         private void AbrirFormularios<FormCifrado>() where FormCifrado : Form, new()
@@ -62,7 +82,7 @@ namespace BusinessIntelligence_v1
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            if (textBox1.Text == "")
+            if (textBoxMatricula.Text == "")
             {
                 MessageBox.Show("El campo de matrícula está vacío");
             }
@@ -71,16 +91,14 @@ namespace BusinessIntelligence_v1
                 try
                 {
                     conn.Open();
-                    sql = @"select crack_user('" + textBox1.Text + "')";
+                    sql = @"select crack_user('" + textBoxMatricula.Text + "')";
                     cmd = new MySqlCommand(sql, conn);
-                    //cmd.Parameters.AddWithValue("_user", textBox1.Text);
-                    //cmd.Parameters.AddWithValue("_password", textBox2.Text);
                     int result = (int)cmd.ExecuteScalar();
                     conn.Close();
                     if (result == 1)
                     {
-                        MessageBox.Show("Se encontró la matrícula: " + textBox1.Text);
-                        matricula = textBox1.Text;
+                        MessageBox.Show("Se encontró la matrícula: " + textBoxMatricula.Text);
+                        matricula = textBoxMatricula.Text;
                         panel6.Visible = true;
                     }
                     else

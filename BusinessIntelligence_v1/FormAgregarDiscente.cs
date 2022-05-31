@@ -47,8 +47,6 @@ namespace BusinessIntelligence_v1
         {
             BusinessIntelligence_v1.ConexionBD conexion = new BusinessIntelligence_v1.ConexionBD();
             conn = conexion.ConectarMysql();
-
-            //comboBox1.SelectedIndex = 0;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -59,6 +57,7 @@ namespace BusinessIntelligence_v1
             dialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             if (dialog.ShowDialog() == DialogResult.OK)
             {
+                textBox31.Text = dialog.FileName;
                 pictureBox1.Image = Image.FromFile(dialog.FileName);
             }
         }
@@ -160,6 +159,8 @@ namespace BusinessIntelligence_v1
             textBox28.Text = "";
             textBox29.Text = "";
             textBox3.Text = "";
+            textBox30.Text = "";
+            textBox31.Text = "";
             textBox35.Text = "";
             textBox4.Text = "";
             textBox5.Text = "";
@@ -188,12 +189,13 @@ namespace BusinessIntelligence_v1
         private void button3_Click(object sender, EventArgs e)
         {
             OpenFileDialog dialog = new OpenFileDialog();
-            dialog.Title = "Sleccione la imagen del horario del discente";
-            dialog.Filter = "PDF (*.*)|*.*";
+            dialog.Title = "Sleccione una imagen del horario del discente";
+            dialog.Filter = "Imagenes|*.jpg; *.png";
             dialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             if (dialog.ShowDialog() == DialogResult.OK)
             {
-                textBox30.Text = openFileDialog1.FileName;
+                textBox30.Text = dialog.FileName;
+                pictureBox2.Image = Image.FromFile(dialog.FileName);
             }
         }
     }
