@@ -31,6 +31,16 @@ namespace BusinessIntelligence_v1
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label53 = new System.Windows.Forms.Label();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.label52 = new System.Windows.Forms.Label();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -124,20 +134,10 @@ namespace BusinessIntelligence_v1
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label50 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label51 = new System.Windows.Forms.Label();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.textBox30 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -150,7 +150,7 @@ namespace BusinessIntelligence_v1
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.textBox30);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.label53);
             this.panel1.Controls.Add(this.textBox28);
@@ -262,9 +262,119 @@ namespace BusinessIntelligence_v1
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(997, 512);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 130;
+            this.button4.Text = "LIMPIAR";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.White;
+            this.label53.Location = new System.Drawing.Point(667, 343);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(52, 12);
+            this.label53.TabIndex = 129;
+            this.label53.Text = "PROMEDIO:";
+            // 
+            // textBox28
+            // 
+            this.textBox28.Location = new System.Drawing.Point(725, 340);
+            this.textBox28.Name = "textBox28";
+            this.textBox28.Size = new System.Drawing.Size(223, 20);
+            this.textBox28.TabIndex = 128;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.White;
+            this.label52.Location = new System.Drawing.Point(667, 317);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(45, 12);
+            this.label52.TabIndex = 127;
+            this.label52.Text = "CARRERA:";
+            // 
+            // comboBox14
+            // 
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Items.AddRange(new object[] {
+            "Ingeniero constructor",
+            "Ingeniero en comunicaciones y electrónica",
+            "Ingeniero en computación e informática",
+            "Ingeniero químico industrial",
+            "Ingeniero mecánico industrial",
+            "Ingeniero electricista industrial",
+            "Administración y evaluación de proyectos",
+            "Ingeniería de costos",
+            "Sistemas de calidad",
+            "Tecnologías de la información",
+            "Ingeniería en telemática",
+            "Ingeniería automotriz"});
+            this.comboBox14.Location = new System.Drawing.Point(718, 314);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(230, 20);
+            this.comboBox14.TabIndex = 126;
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.Color.White;
+            this.label51.Location = new System.Drawing.Point(744, 288);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(156, 20);
+            this.label51.TabIndex = 125;
+            this.label51.Text = "DATOS ACADÉMICOS";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.White;
+            this.label50.Location = new System.Drawing.Point(667, 63);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(84, 12);
+            this.label50.TabIndex = 124;
+            this.label50.Text = "NOMBRE DEPORTE:";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(757, 57);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(191, 20);
+            this.textBox14.TabIndex = 123;
+            // 
+            // comboBox13
+            // 
+            this.comboBox13.FormattingEnabled = true;
+            this.comboBox13.Items.AddRange(new object[] {
+            "SI",
+            "NO"});
+            this.comboBox13.Location = new System.Drawing.Point(765, 31);
+            this.comboBox13.Name = "comboBox13";
+            this.comboBox13.Size = new System.Drawing.Size(183, 20);
+            this.comboBox13.TabIndex = 122;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Location = new System.Drawing.Point(954, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(199, 202);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 121;
+            this.pictureBox1.TabStop = false;
+            // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(759, 457);
+            this.button3.Location = new System.Drawing.Point(670, 477);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 120;
@@ -1254,125 +1364,17 @@ namespace BusinessIntelligence_v1
             this.label2.Text = "DATOS PERSONALES";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // comboBox13
+            // openFileDialog1
             // 
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Items.AddRange(new object[] {
-            "SI",
-            "NO"});
-            this.comboBox13.Location = new System.Drawing.Point(765, 31);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(183, 20);
-            this.comboBox13.TabIndex = 122;
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // pictureBox1
+            // textBox30
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(954, 8);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(199, 202);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 121;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.ForeColor = System.Drawing.Color.White;
-            this.label50.Location = new System.Drawing.Point(667, 63);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(84, 12);
-            this.label50.TabIndex = 124;
-            this.label50.Text = "NOMBRE DEPORTE:";
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(757, 57);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(191, 20);
-            this.textBox14.TabIndex = 123;
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.ForeColor = System.Drawing.Color.White;
-            this.label51.Location = new System.Drawing.Point(744, 288);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(156, 20);
-            this.label51.TabIndex = 125;
-            this.label51.Text = "DATOS ACADÉMICOS";
-            // 
-            // comboBox14
-            // 
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Items.AddRange(new object[] {
-            "Ingeniero constructor",
-            "Ingeniero en comunicaciones y electrónica",
-            "Ingeniero en computación e informática",
-            "Ingeniero químico industrial",
-            "Ingeniero mecánico industrial",
-            "Ingeniero electricista industrial",
-            "Administración y evaluación de proyectos",
-            "Ingeniería de costos",
-            "Sistemas de calidad",
-            "Tecnologías de la información",
-            "Ingeniería en telemática",
-            "Ingeniería automotriz"});
-            this.comboBox14.Location = new System.Drawing.Point(718, 314);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(230, 20);
-            this.comboBox14.TabIndex = 126;
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.ForeColor = System.Drawing.Color.White;
-            this.label52.Location = new System.Drawing.Point(667, 317);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(45, 12);
-            this.label52.TabIndex = 127;
-            this.label52.Text = "CARRERA:";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.Color.White;
-            this.label53.Location = new System.Drawing.Point(667, 343);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(52, 12);
-            this.label53.TabIndex = 129;
-            this.label53.Text = "PROMEDIO:";
-            // 
-            // textBox28
-            // 
-            this.textBox28.Location = new System.Drawing.Point(725, 340);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(223, 20);
-            this.textBox28.TabIndex = 128;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(997, 512);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 130;
-            this.button4.Text = "LIMPIAR";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Location = new System.Drawing.Point(954, 216);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(199, 199);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 131;
-            this.pictureBox2.TabStop = false;
+            this.textBox30.Location = new System.Drawing.Point(757, 459);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.ReadOnly = true;
+            this.textBox30.Size = new System.Drawing.Size(191, 20);
+            this.textBox30.TabIndex = 132;
             // 
             // FormAgregarDiscente
             // 
@@ -1389,7 +1391,6 @@ namespace BusinessIntelligence_v1
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1501,6 +1502,7 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.Label label53;
         private System.Windows.Forms.TextBox textBox28;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.TextBox textBox30;
     }
 }

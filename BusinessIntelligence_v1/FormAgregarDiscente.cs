@@ -188,12 +188,12 @@ namespace BusinessIntelligence_v1
         private void button3_Click(object sender, EventArgs e)
         {
             OpenFileDialog dialog = new OpenFileDialog();
-            dialog.Title = "Sleccione una foto del horario";
-            dialog.Filter = "Imagenes|*.jpg; *.png";
+            dialog.Title = "Sleccione la imagen del horario del discente";
+            dialog.Filter = "PDF (*.*)|*.*";
             dialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             if (dialog.ShowDialog() == DialogResult.OK)
             {
-                pictureBox2.Image = Image.FromFile(dialog.FileName);
+                textBox30.Text = openFileDialog1.FileName;
             }
         }
     }
