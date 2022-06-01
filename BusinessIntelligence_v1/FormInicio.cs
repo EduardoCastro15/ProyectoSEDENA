@@ -35,6 +35,7 @@ namespace BusinessIntelligence_v1
 
         private void button7_Click(object sender, EventArgs e)
         {
+            panel4.Controls.Clear();
             FormDatosPersonales formularios;
             formularios = panel4.Controls.OfType<FormDatosPersonales>().FirstOrDefault();
             if (formularios == null)
@@ -58,7 +59,7 @@ namespace BusinessIntelligence_v1
             }
         }
 
-        private void AbrirFormularios<FormCifrado>() where FormCifrado : Form, new()
+        /*private void AbrirFormularios<FormCifrado>() where FormCifrado : Form, new()
         {
             Form formularios;
             formularios = panel4.Controls.OfType<FormCifrado>().FirstOrDefault();
@@ -78,7 +79,7 @@ namespace BusinessIntelligence_v1
             {
                 formularios.BringToFront();
             }
-        }
+        }*/
 
         private void button1_Click_1(object sender, EventArgs e)
         {
@@ -97,6 +98,7 @@ namespace BusinessIntelligence_v1
                     conn.Close();
                     if (result == 1)
                     {
+                        panel4.Controls.Clear();
                         MessageBox.Show("Se encontró la matrícula: " + textBoxMatricula.Text);
                         matricula = textBoxMatricula.Text;
                         panel6.Visible = true;
@@ -123,22 +125,64 @@ namespace BusinessIntelligence_v1
 
         private void button8_Click(object sender, EventArgs e)
         {
-            AbrirFormularios<FormDatosMedicos>();
+            panel4.Controls.Clear();
+            FormDatosMedicos formularios;
+            formularios = panel4.Controls.OfType<FormDatosMedicos>().FirstOrDefault();
+            if (formularios == null)
+            {
+                formularios = new FormDatosMedicos()
+                {
+                    TopLevel = false,
+                    Dock = DockStyle.Fill
+                };
+                panel4.Controls.Add(formularios);
+                panel4.Tag = formularios;
+
+                formularios.textBox1.Text = matricula;
+
+                formularios.Show();
+                formularios.BringToFront();
+            }
+            else
+            {
+                formularios.BringToFront();
+            }
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            AbrirFormularios<FormDatosDeportivos>();
+            panel4.Controls.Clear();
+            FormDatosDeportivos formularios;
+            formularios = panel4.Controls.OfType<FormDatosDeportivos>().FirstOrDefault();
+            if (formularios == null)
+            {
+                formularios = new FormDatosDeportivos()
+                {
+                    TopLevel = false,
+                    Dock = DockStyle.Fill
+                };
+                panel4.Controls.Add(formularios);
+                panel4.Tag = formularios;
+
+                formularios.textBox1.Text = matricula;
+
+                formularios.Show();
+                formularios.BringToFront();
+            }
+            else
+            {
+                formularios.BringToFront();
+            }
         }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            AbrirFormularios<FormDatosDeportivos>();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            AbrirFormularios<FormHorario>();
+            
         }
     }
 }
