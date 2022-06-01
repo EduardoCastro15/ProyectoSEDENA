@@ -21,15 +21,15 @@ namespace BusinessIntelligence_v1
         private MySqlConnection conn;
         private MySqlCommand cmd;
         private MySqlDataAdapter adaptar;
+        private MySqlDataAdapter adaptar1;
 
         private void FormTablaAdmins_Load(object sender, EventArgs e)
         {
             BusinessIntelligence_v1.ConexionBD conexion = new BusinessIntelligence_v1.ConexionBD();
             conn = conexion.ConectarMysql();
-            DataTable tabla = new DataTable();
-
             try
             {
+                DataTable tabla = new DataTable();
                 conn.Open();
                 cmd = new MySqlCommand();
                 cmd.Connection = conn;
@@ -38,6 +38,25 @@ namespace BusinessIntelligence_v1
                 adaptar.SelectCommand = cmd;
                 adaptar.Fill(tabla);
                 dataGridView1.DataSource = tabla;
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Algo salió mal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                conn.Close();
+            }
+
+            try
+            {
+                DataTable tabla1 = new DataTable();
+                conn.Open();
+                cmd = new MySqlCommand();
+                cmd.Connection = conn;
+                cmd.CommandText = ("select * from discentes;");
+                adaptar1 = new MySqlDataAdapter();
+                adaptar1.SelectCommand = cmd;
+                adaptar1.Fill(tabla1);
+                dataGridView2.DataSource = tabla1;
                 conn.Close();
             }
             catch (Exception ex)
