@@ -2521,6 +2521,38 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name="Totalporcarrera" msprop:Generator_TableClassName="TotalporcarreraDataTable" msprop:Generator_TableVarName="tableTotalporcarrera" msprop:Generator_RowChangedName="TotalporcarreraRowChanged" msprop:Generator_TablePropName="Totalporcarrera" msprop:Generator_RowDeletingName="TotalporcarreraRowDeleting" msprop:Generator_RowChangingName="TotalporcarreraRowChanging" msprop:Generator_RowEvHandlerName="TotalporcarreraRowChangeEventHandler" msprop:Generator_RowDeletedName="TotalporcarreraRowDeleted" msprop:Generator_RowClassName="TotalporcarreraRow" msprop:Generator_UserTableName="Totalporcarrera" msprop:Generator_RowEvArgName="TotalporcarreraRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Carrera" msprop:Generator_ColumnVarNameInTable="columnCarrera" msprop:Generator_ColumnPropNameInRow="Carrera" msprop:Generator_ColumnPropNameInTable="CarreraColumn" msprop:Generator_UserColumnName="Carrera" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Totalporentidad" msprop:Generator_TableClassName="TotalporentidadDataTable" msprop:Generator_TableVarName="tableTotalporentidad" msprop:Generator_TablePropName="Totalporentidad" msprop:Generator_RowDeletingName="TotalporentidadRowDeleting" msprop:Generator_RowChangingName="TotalporentidadRowChanging" msprop:Generator_RowEvHandlerName="TotalporentidadRowChangeEventHandler" msprop:Generator_RowDeletedName="TotalporentidadRowDeleted" msprop:Generator_UserTableName="Totalporentidad" msprop:Generator_RowChangedName="TotalporentidadRowChanged" msprop:Generator_RowEvArgName="TotalporentidadRowChangeEvent" msprop:Generator_RowClassName="TotalporentidadRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Origen" msprop:Generator_ColumnVarNameInTable="columnOrigen" msprop:Generator_ColumnPropNameInRow="Origen" msprop:Generator_ColumnPropNameInTable="OrigenColumn" msprop:Generator_UserColumnName="Origen" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Totalporescuela" msprop:Generator_TableClassName="TotalporescuelaDataTable" msprop:Generator_TableVarName="tableTotalporescuela" msprop:Generator_TablePropName="Totalporescuela" msprop:Generator_RowDeletingName="TotalporescuelaRowDeleting" msprop:Generator_RowChangingName="TotalporescuelaRowChanging" msprop:Generator_RowEvHandlerName="TotalporescuelaRowChangeEventHandler" msprop:Generator_RowDeletedName="TotalporescuelaRowDeleted" msprop:Generator_UserTableName="Totalporescuela" msprop:Generator_RowChangedName="TotalporescuelaRowChanged" msprop:Generator_RowEvArgName="TotalporescuelaRowChangeEvent" msprop:Generator_RowClassName="TotalporescuelaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Escuela" msprop:Generator_ColumnVarNameInTable="columnEscuela" msprop:Generator_ColumnPropNameInRow="Escuela" msprop:Generator_ColumnPropNameInTable="EscuelaColumn" msprop:Generator_UserColumnName="Escuela" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Totalporpromedio" msprop:Generator_TableClassName="TotalporpromedioDataTable" msprop:Generator_TableVarName="tableTotalporpromedio" msprop:Generator_TablePropName="Totalporpromedio" msprop:Generator_RowDeletingName="TotalporpromedioRowDeleting" msprop:Generator_RowChangingName="TotalporpromedioRowChanging" msprop:Generator_RowEvHandlerName="TotalporpromedioRowChangeEventHandler" msprop:Generator_RowDeletedName="TotalporpromedioRowDeleted" msprop:Generator_UserTableName="Totalporpromedio" msprop:Generator_RowChangedName="TotalporpromedioRowChanged" msprop:Generator_RowEvArgName="TotalporpromedioRowChangeEvent" msprop:Generator_RowClassName="TotalporpromedioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Promedio" msprop:Generator_ColumnVarNameInTable="columnPromedio" msprop:Generator_ColumnPropNameInRow="Promedio" msprop:Generator_ColumnPropNameInTable="PromedioColumn" msprop:Generator_UserColumnName="Promedio" type="xs:double" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:choice>
     </xs:complexType>
     <xs:unique name="Constraint1" msdata:PrimaryKey="true">

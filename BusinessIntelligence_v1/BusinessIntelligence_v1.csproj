@@ -115,6 +115,30 @@
     <Compile Include="FormBI1.Designer.cs">
       <DependentUpon>FormBI1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBI2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBI2.Designer.cs">
+      <DependentUpon>FormBI2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBI3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBI3.Designer.cs">
+      <DependentUpon>FormBI3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBI4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBI4.Designer.cs">
+      <DependentUpon>FormBI4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBI5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBI5.Designer.cs">
+      <DependentUpon>FormBI5.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDatosAcademicos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +195,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sedenaDataSet.cs">
+      <DependentUpon>sedenaDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="sedenaDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -187,6 +214,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBI1.resx">
       <DependentUpon>FormBI1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBI2.resx">
+      <DependentUpon>FormBI2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBI3.resx">
+      <DependentUpon>FormBI3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBI4.resx">
+      <DependentUpon>FormBI4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBI5.resx">
+      <DependentUpon>FormBI5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDatosDeportivos.resx">
       <DependentUpon>FormDatosDeportivos.cs</DependentUpon>

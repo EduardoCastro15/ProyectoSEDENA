@@ -48,5 +48,25 @@ namespace BusinessIntelligence_v1
                 formularios.BringToFront();
             }
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormBI2>();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormBI3>();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormBI4>();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormBI5>();
+        }
     }
 }

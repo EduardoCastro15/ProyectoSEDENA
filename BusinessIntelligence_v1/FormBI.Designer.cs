@@ -36,12 +36,16 @@ namespace BusinessIntelligence_v1
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.button2);
+            this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.button9);
             this.panel3.Controls.Add(this.button8);
@@ -69,8 +73,9 @@ namespace BusinessIntelligence_v1
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(190, 23);
             this.button9.TabIndex = 9;
-            this.button9.Text = "INSCRIPCIÓN ACTUAL";
+            this.button9.Text = "DISCENTES POR ENTIDAD F.";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 
@@ -78,8 +83,9 @@ namespace BusinessIntelligence_v1
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(190, 23);
             this.button8.TabIndex = 8;
-            this.button8.Text = "DATOS ACADÉMICOS";
+            this.button8.Text = "DISCENTES POR CARRERA";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -87,7 +93,7 @@ namespace BusinessIntelligence_v1
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(190, 23);
             this.button7.TabIndex = 7;
-            this.button7.Text = "ESTADISTICAS";
+            this.button7.Text = "DISCENTES POR SEXO";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -100,6 +106,26 @@ namespace BusinessIntelligence_v1
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(944, 538);
             this.panel4.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(6, 126);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(190, 23);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "DISCENTES POR TIPO ESCUELA";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(6, 155);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(190, 23);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "DISCENTES POR PROMEDIO";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // FormBI
             // 
@@ -129,5 +155,7 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
