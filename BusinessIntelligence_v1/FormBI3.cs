@@ -47,7 +47,7 @@ namespace BusinessIntelligence_v1
                 chart1.Palette = ChartColorPalette.Excel;
 
                 ChartArea areagrafico = new ChartArea();
-                //areagrafico.Area3DStyle.Enable3D = true;
+                areagrafico.Area3DStyle.Enable3D = true;
 
                 chart1.ChartAreas.Add(areagrafico);
 

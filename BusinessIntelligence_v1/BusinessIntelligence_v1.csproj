@@ -139,6 +139,18 @@
     <Compile Include="FormBI5.Designer.cs">
       <DependentUpon>FormBI5.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormBI6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBI6.Designer.cs">
+      <DependentUpon>FormBI6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBI7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBI7.Designer.cs">
+      <DependentUpon>FormBI7.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDatosAcademicos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -226,6 +238,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormBI5.resx">
       <DependentUpon>FormBI5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBI6.resx">
+      <DependentUpon>FormBI6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBI7.resx">
+      <DependentUpon>FormBI7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDatosDeportivos.resx">
       <DependentUpon>FormDatosDeportivos.cs</DependentUpon>

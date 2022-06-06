@@ -45,3 +45,5 @@ C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\Bus
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormBI3.resources
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormBI4.resources
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormBI5.resources
+C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormBI6.resources
+C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormBI7.resources

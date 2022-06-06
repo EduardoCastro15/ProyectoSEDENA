@@ -47,7 +47,7 @@ namespace BusinessIntelligence_v1
                 chart1.Palette = ChartColorPalette.Excel;
 
                 ChartArea areagrafico = new ChartArea();
-                areagrafico.Area3DStyle.Enable3D = true;
+                //areagrafico.Area3DStyle.Enable3D = true;
 
                 chart1.ChartAreas.Add(areagrafico);
 
@@ -56,7 +56,7 @@ namespace BusinessIntelligence_v1
                 chart1.Titles.Add(titulo);
 
                 Series serie = new Series("Promedio");
-                serie.ChartType = SeriesChartType.Column;
+                serie.ChartType = SeriesChartType.Line;
                 serie.XValueMember = "promedio";
                 serie.YValueMembers = "Total";
                 serie.IsValueShownAsLabel = true;

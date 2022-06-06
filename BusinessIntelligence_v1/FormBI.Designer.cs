@@ -31,19 +31,23 @@ namespace BusinessIntelligence_v1
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormBI));
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.button4);
+            this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.label2);
@@ -54,6 +58,26 @@ namespace BusinessIntelligence_v1
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(206, 538);
             this.panel3.TabIndex = 2;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(6, 155);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(190, 23);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "DISCENTES POR PROMEDIO";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(6, 126);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(190, 23);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "DISCENTES POR TIPO ESCUELA";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -107,25 +131,25 @@ namespace BusinessIntelligence_v1
             this.panel4.Size = new System.Drawing.Size(944, 538);
             this.panel4.TabIndex = 3;
             // 
-            // button1
+            // button3
             // 
-            this.button1.Location = new System.Drawing.Point(6, 126);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(190, 23);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "DISCENTES POR TIPO ESCUELA";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button3.Location = new System.Drawing.Point(6, 184);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(190, 23);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "DISCENTES POR GRADO MILITAR";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // button4
             // 
-            this.button2.Location = new System.Drawing.Point(6, 155);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(190, 23);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "DISCENTES POR PROMEDIO";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button4.Location = new System.Drawing.Point(6, 213);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(190, 23);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "DISCENTES POR TIPO SANGRE";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // FormBI
             // 
@@ -157,5 +181,7 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }

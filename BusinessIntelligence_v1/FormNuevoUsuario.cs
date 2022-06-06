@@ -72,7 +72,10 @@ namespace BusinessIntelligence_v1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult opc;
+            opc = MessageBox.Show("Estas seguro que deseas terminar la aplicación?", "Finalizar aplicación", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (opc == DialogResult.OK)
+                Application.Exit();
         }
 
         private void FormNuevoUsuario_Load(object sender, EventArgs e)
