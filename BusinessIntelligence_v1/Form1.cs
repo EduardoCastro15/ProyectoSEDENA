@@ -19,9 +19,9 @@ namespace BusinessIntelligence_v1
             AbrirFormularios<FormInicio>();
         }
 
-        private MySqlConnection conn;
-        private MySqlCommand cmd;
-        private string sql = null;
+        //private MySqlConnection conn;
+        //private MySqlCommand cmd;
+        //private string sql = null;
 
         private void button2_Click(object sender, EventArgs e)
         {

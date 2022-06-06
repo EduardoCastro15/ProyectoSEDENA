@@ -23,3 +23,6 @@ begin
     end if;
 end$$
 DELIMITER ;
+
+select carrera, Count(carrera) as Total from sedena.discentes group by carrera;
+select sexo, Count(sexo) as Total from sedena.discentes group by sexo;

@@ -21,5 +21,32 @@ namespace BusinessIntelligence_v1
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormBI1>();
+        }
+
+        private void AbrirFormularios<FormCifrado>() where FormCifrado : Form, new()
+        {
+            Form formularios;
+            formularios = panel4.Controls.OfType<FormCifrado>().FirstOrDefault();
+            if (formularios == null)
+            {
+                formularios = new FormCifrado
+                {
+                    TopLevel = false,
+                    Dock = DockStyle.Fill
+                };
+                panel4.Controls.Add(formularios);
+                panel4.Tag = formularios;
+                formularios.Show();
+                formularios.BringToFront();
+            }
+            else
+            {
+                formularios.BringToFront();
+            }
+        }
     }
 }
