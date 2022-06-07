@@ -177,7 +177,28 @@ namespace BusinessIntelligence_v1
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            
+            panel4.Controls.Clear();
+            FormDatosAcademicos formularios;
+            formularios = panel4.Controls.OfType<FormDatosAcademicos>().FirstOrDefault();
+            if (formularios == null)
+            {
+                formularios = new FormDatosAcademicos()
+                {
+                    TopLevel = false,
+                    Dock = DockStyle.Fill
+                };
+                panel4.Controls.Add(formularios);
+                panel4.Tag = formularios;
+
+                formularios.textBox1.Text = matricula;
+
+                formularios.Show();
+                formularios.BringToFront();
+            }
+            else
+            {
+                formularios.BringToFront();
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)

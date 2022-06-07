@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace BusinessIntelligence_v1
 {
-    public partial class FormDatosAcademicos : Form
+    public partial class FormDatosAcademicos: Form
     {
         public FormDatosAcademicos()
         {

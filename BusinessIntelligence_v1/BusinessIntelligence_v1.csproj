@@ -193,12 +193,6 @@
     <Compile Include="FormNuevoUsuario.Designer.cs">
       <DependentUpon>FormNuevoUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDatosPersonales.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDatosPersonales.Designer.cs">
-      <DependentUpon>FormDatosPersonales.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormTablaAdmins.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -254,6 +248,9 @@
     <EmbeddedResource Include="FormBI7.resx">
       <DependentUpon>FormBI7.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDatosAcademicos.resx">
+      <DependentUpon>FormDatosAcademicos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDatosDeportivos.resx">
       <DependentUpon>FormDatosDeportivos.cs</DependentUpon>
     </EmbeddedResource>
@@ -265,9 +262,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormNuevoUsuario.resx">
       <DependentUpon>FormNuevoUsuario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDatosPersonales.resx">
-      <DependentUpon>FormDatosPersonales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTablaAdmins.resx">
       <DependentUpon>FormTablaAdmins.cs</DependentUpon>

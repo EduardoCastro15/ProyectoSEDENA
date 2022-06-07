@@ -1,5 +1,4 @@
-﻿
-namespace BusinessIntelligence_v1
+﻿namespace BusinessIntelligence_v1
 {
     partial class FormDatosAcademicos
     {
