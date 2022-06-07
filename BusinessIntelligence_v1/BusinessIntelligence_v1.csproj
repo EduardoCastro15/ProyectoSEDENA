@@ -175,6 +175,12 @@
     <Compile Include="FormDatosMedicos.Designer.cs">
       <DependentUpon>FormDatosMedicos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDatosPersonales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatosPersonales.Designer.cs">
+      <DependentUpon>FormDatosPersonales.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormHorario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -256,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDatosMedicos.resx">
       <DependentUpon>FormDatosMedicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDatosPersonales.resx">
+      <DependentUpon>FormDatosPersonales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormInicio.resx">
       <DependentUpon>FormInicio.cs</DependentUpon>
