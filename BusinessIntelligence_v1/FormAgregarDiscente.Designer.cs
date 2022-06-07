@@ -31,6 +31,9 @@ namespace BusinessIntelligence_v1
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.label53 = new System.Windows.Forms.Label();
             this.textBox28 = new System.Windows.Forms.TextBox();
@@ -135,12 +138,9 @@ namespace BusinessIntelligence_v1
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -266,6 +266,32 @@ namespace BusinessIntelligence_v1
             this.panel1.Size = new System.Drawing.Size(1156, 538);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // textBox31
+            // 
+            this.textBox31.Location = new System.Drawing.Point(37, 421);
+            this.textBox31.Name = "textBox31";
+            this.textBox31.ReadOnly = true;
+            this.textBox31.Size = new System.Drawing.Size(397, 20);
+            this.textBox31.TabIndex = 134;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Location = new System.Drawing.Point(954, 216);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(199, 284);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 133;
+            this.pictureBox2.TabStop = false;
+            // 
+            // textBox30
+            // 
+            this.textBox30.Location = new System.Drawing.Point(757, 459);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.ReadOnly = true;
+            this.textBox30.Size = new System.Drawing.Size(191, 20);
+            this.textBox30.TabIndex = 132;
             // 
             // button4
             // 
@@ -1373,32 +1399,6 @@ namespace BusinessIntelligence_v1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // textBox30
-            // 
-            this.textBox30.Location = new System.Drawing.Point(757, 459);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.ReadOnly = true;
-            this.textBox30.Size = new System.Drawing.Size(191, 20);
-            this.textBox30.TabIndex = 132;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Location = new System.Drawing.Point(954, 216);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(199, 284);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 133;
-            this.pictureBox2.TabStop = false;
-            // 
-            // textBox31
-            // 
-            this.textBox31.Location = new System.Drawing.Point(37, 421);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.ReadOnly = true;
-            this.textBox31.Size = new System.Drawing.Size(397, 20);
-            this.textBox31.TabIndex = 134;
-            // 
             // FormAgregarDiscente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1413,8 +1413,8 @@ namespace BusinessIntelligence_v1
             this.Load += new System.EventHandler(this.FormAgregarDiscente_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

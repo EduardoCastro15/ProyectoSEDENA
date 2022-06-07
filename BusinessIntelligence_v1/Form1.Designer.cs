@@ -37,12 +37,13 @@ namespace BusinessIntelligence_v1
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -115,6 +116,7 @@ namespace BusinessIntelligence_v1
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.button7);
             this.panel5.Controls.Add(this.button4);
             this.panel5.Controls.Add(this.button2);
             this.panel5.Controls.Add(this.button6);
@@ -125,6 +127,16 @@ namespace BusinessIntelligence_v1
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1165, 31);
             this.panel5.TabIndex = 2;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(441, 2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(128, 23);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "AGREGAR DISCENTE";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
@@ -178,15 +190,15 @@ namespace BusinessIntelligence_v1
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // button7
             // 
-            this.button4.Location = new System.Drawing.Point(441, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(128, 23);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "AGREGAR DISCENTE";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button7.Location = new System.Drawing.Point(575, 2);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(214, 23);
+            this.button7.TabIndex = 10;
+            this.button7.Text = "AGREGAR CALIFICACIONES DISCENTE";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Form1
             // 
@@ -228,6 +240,7 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button7;
     }
 }
 

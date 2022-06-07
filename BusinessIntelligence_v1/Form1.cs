@@ -95,5 +95,10 @@ namespace BusinessIntelligence_v1
         {
             AbrirFormularios<FormAgregarDiscente>();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<FormAgregarCalificaciones>();
+        }
     }
 }
