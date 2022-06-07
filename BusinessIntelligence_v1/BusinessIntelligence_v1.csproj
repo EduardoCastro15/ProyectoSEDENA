@@ -199,6 +199,12 @@
     <Compile Include="FormNuevoUsuario.Designer.cs">
       <DependentUpon>FormNuevoUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPorcenMat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPorcenMat.Designer.cs">
+      <DependentUpon>FormPorcenMat.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTablaAdmins.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -271,6 +277,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormNuevoUsuario.resx">
       <DependentUpon>FormNuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPorcenMat.resx">
+      <DependentUpon>FormPorcenMat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTablaAdmins.resx">
       <DependentUpon>FormTablaAdmins.cs</DependentUpon>

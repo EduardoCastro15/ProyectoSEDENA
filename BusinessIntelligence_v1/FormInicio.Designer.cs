@@ -33,7 +33,6 @@ namespace BusinessIntelligence_v1
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -72,7 +71,6 @@ namespace BusinessIntelligence_v1
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.button3);
             this.panel6.Controls.Add(this.button2);
             this.panel6.Controls.Add(this.button9);
             this.panel6.Controls.Add(this.button8);
@@ -82,16 +80,6 @@ namespace BusinessIntelligence_v1
             this.panel6.Size = new System.Drawing.Size(196, 441);
             this.panel6.TabIndex = 7;
             this.panel6.Visible = false;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(3, 128);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(190, 23);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "HORARIO";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -208,7 +196,6 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
     }
 }

@@ -23,6 +23,7 @@ namespace BusinessIntelligence_v1
 
         private void FormDatosAcademicos_Load(object sender, EventArgs e)
         {
+            double suma = 0.0;
             BusinessIntelligence_v1.ConexionBD conexion = new BusinessIntelligence_v1.ConexionBD();
             conn = conexion.ConectarMysql();
 
@@ -105,6 +106,188 @@ namespace BusinessIntelligence_v1
                     textBox55.Text = leer["proyectos_de_ingenieria_de_software"].ToString();
                     textBox56.Text = leer["laboratorio_de_ingenieria_de_redes"].ToString();
                     textBox57.Text = leer["ingenieria_de_redes_III"].ToString();
+
+                    if (textBox1.Text == null)
+                        textBox1.Text = "0.0";
+                    if (textBox10.Text == null)
+                        textBox10.Text = "0.0";
+                    if (textBox11.Text == null)
+                        textBox11.Text = "0.0";
+                    if (textBox12.Text == null)
+                        textBox12.Text = "0.0";
+                    if (textBox13.Text == null)
+                        textBox13.Text = "0.0";
+                    if (textBox14.Text == null)
+                        textBox14.Text = "0.0";
+                    if (textBox15.Text == null)
+                        textBox15.Text = "0.0";
+                    if (textBox16.Text == null)
+                        textBox16.Text = "0.0";
+                    if (textBox17.Text == null)
+                        textBox17.Text = "0.0";
+                    if (textBox18.Text == null)
+                        textBox18.Text = "0.0";
+                    if (textBox19.Text == null)
+                        textBox19.Text = "0.0";
+                    if (textBox2.Text == null)
+                        textBox2.Text = "0.0";
+                    if (textBox20.Text == null)
+                        textBox20.Text = "0.0";
+                    if (textBox21.Text == null)
+                        textBox21.Text = "0.0";
+                    if (textBox22.Text == null)
+                        textBox22.Text = "0.0";
+                    if (textBox23.Text == null)
+                        textBox23.Text = "0.0";
+                    if (textBox24.Text == null)
+                        textBox24.Text = "0.0";
+                    if (textBox25.Text == null)
+                        textBox25.Text = "0.0";
+                    if (textBox26.Text == null)
+                        textBox26.Text = "0.0";
+                    if (textBox27.Text == null)
+                        textBox27.Text = "0.0";
+                    if (textBox28.Text == null)
+                        textBox28.Text = "0.0";
+                    if (textBox29.Text == null)
+                        textBox29.Text = "0.0";
+                    if (textBox3.Text == null)
+                        textBox3.Text = "0.0";
+                    if (textBox30.Text == null)
+                        textBox30.Text = "0.0";
+                    if (textBox31.Text == null)
+                        textBox31.Text = "0.0";
+                    if (textBox32.Text == null)
+                        textBox32.Text = "0.0";
+                    if (textBox33.Text == null)
+                        textBox33.Text = "0.0";
+                    if (textBox34.Text == null)
+                        textBox34.Text = "0.0";
+                    if (textBox35.Text == null)
+                        textBox35.Text = "0.0";
+                    if (textBox36.Text == null)
+                        textBox36.Text = "0.0";
+                    if (textBox37.Text == null)
+                        textBox37.Text = "0.0";
+                    if (textBox38.Text == null)
+                        textBox38.Text = "0.0";
+                    if (textBox39.Text == null)
+                        textBox39.Text = "0.0";
+                    if (textBox4.Text == null)
+                        textBox4.Text = "0.0";
+                    if (textBox40.Text == null)
+                        textBox40.Text = "0.0";
+                    if (textBox41.Text == null)
+                        textBox41.Text = "0.0";
+                    if (textBox42.Text == null)
+                        textBox42.Text = "0.0";
+                    if (textBox43.Text == null)
+                        textBox43.Text = "0.0";
+                    if (textBox44.Text == null)
+                        textBox44.Text = "0.0";
+                    if (textBox45.Text == null)
+                        textBox45.Text = "0.0";
+                    if (textBox46.Text == null)
+                        textBox46.Text = "0.0";
+                    if (textBox47.Text == null)
+                        textBox47.Text = "0.0";
+                    if (textBox48.Text == null)
+                        textBox48.Text = "0.0";
+                    if (textBox49.Text == null)
+                        textBox49.Text = "0.0";
+                    if (textBox5.Text == null)
+                        textBox5.Text = "0.0";
+                    if (textBox50.Text == null)
+                        textBox50.Text = "0.0";
+                    if (textBox51.Text == null)
+                        textBox51.Text = "0.0";
+                    if (textBox52.Text == null)
+                        textBox52.Text = "0.0";
+                    if (textBox53.Text == null)
+                        textBox53.Text = "0.0";
+                    if (textBox54.Text == null)
+                        textBox54.Text = "0.0";
+                    if (textBox55.Text == null)
+                        textBox55.Text = "0.0";
+                    if (textBox56.Text == null)
+                        textBox56.Text = "0.0";
+                    if (textBox57.Text == null)
+                        textBox57.Text = "0.0";
+                    if (textBox6.Text == null)
+                        textBox6.Text = "0.0";
+                    if (textBox7.Text == null)
+                        textBox7.Text = "0.0";
+                    if (textBox8.Text == null)
+                        textBox8.Text = "0.0";
+                    if (textBox9.Text == null)
+                        textBox9.Text = "0.0";
+
+                    suma += double.Parse(textBox1.Text);
+                    suma += double.Parse(textBox10.Text);
+                    suma += double.Parse(textBox11.Text);
+                    suma += double.Parse(textBox12.Text);
+                    suma += double.Parse(textBox13.Text);
+                    suma += double.Parse(textBox14.Text);
+                    suma += double.Parse(textBox15.Text);
+                    suma += double.Parse(textBox16.Text);
+                    suma += double.Parse(textBox17.Text);
+                    suma += double.Parse(textBox18.Text);
+                    suma += double.Parse(textBox19.Text);
+                    suma += double.Parse(textBox2.Text);
+                    suma += double.Parse(textBox20.Text);
+                    suma += double.Parse(textBox21.Text);
+                    suma += double.Parse(textBox22.Text);
+                    suma += double.Parse(textBox23.Text);
+                    suma += double.Parse(textBox24.Text);
+                    suma += double.Parse(textBox25.Text);
+                    suma += double.Parse(textBox26.Text);
+                    suma += double.Parse(textBox27.Text);
+                    suma += double.Parse(textBox28.Text);
+                    suma += double.Parse(textBox29.Text);
+                    suma += double.Parse(textBox3.Text);
+                    suma += double.Parse(textBox30.Text);
+                    suma += double.Parse(textBox31.Text);
+                    suma += double.Parse(textBox32.Text);
+                    suma += double.Parse(textBox33.Text);
+                    suma += double.Parse(textBox34.Text);
+                    suma += double.Parse(textBox35.Text);
+                    suma += double.Parse(textBox36.Text);
+                    suma += double.Parse(textBox37.Text);
+                    suma += double.Parse(textBox38.Text);
+                    suma += double.Parse(textBox39.Text);
+                    suma += double.Parse(textBox4.Text);
+                    suma += double.Parse(textBox40.Text);
+                    suma += double.Parse(textBox41.Text);
+                    suma += double.Parse(textBox42.Text);
+                    suma += double.Parse(textBox43.Text);
+                    suma += double.Parse(textBox44.Text);
+                    suma += double.Parse(textBox45.Text);
+                    suma += double.Parse(textBox46.Text);
+                    suma += double.Parse(textBox47.Text);
+                    suma += double.Parse(textBox48.Text);
+                    suma += double.Parse(textBox49.Text);
+                    suma += double.Parse(textBox5.Text);
+                    suma += double.Parse(textBox50.Text);
+                    suma += double.Parse(textBox51.Text);
+                    suma += double.Parse(textBox52.Text);
+                    suma += double.Parse(textBox53.Text);
+                    suma += double.Parse(textBox54.Text);
+                    suma += double.Parse(textBox55.Text);
+                    suma += double.Parse(textBox56.Text);
+                    suma += double.Parse(textBox57.Text);
+                    suma += double.Parse(textBox6.Text);
+                    suma += double.Parse(textBox7.Text);
+                    suma += double.Parse(textBox8.Text);
+                    suma += double.Parse(textBox9.Text);
+                    //suma = Convert.ToDouble(textBox1.Text + textBox10.Text);
+
+                    if (suma != 0.0)
+                    {
+                        button1.Visible = true;
+                        suma /= 56.0;
+                        suma = (suma * 100.0) / 10.0;
+                        textBox58.Text = suma.ToString();
+                    }
                 }
                 else
                 {
@@ -122,6 +305,32 @@ namespace BusinessIntelligence_v1
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+            FormPorcenMat formularios;
+            formularios = panel2.Controls.OfType<FormPorcenMat>().FirstOrDefault();
+            if (formularios == null)
+            {
+                formularios = new FormPorcenMat()
+                {
+                    TopLevel = false,
+                    Dock = DockStyle.Fill
+                };
+                panel2.Controls.Add(formularios);
+                panel2.Tag = formularios;
+
+                formularios.textBox1.Text = textBox58.Text;
+
+                formularios.Show();
+                formularios.BringToFront();
+            }
+            else
+            {
+                formularios.BringToFront();
+            }
         }
     }
 }
