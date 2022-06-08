@@ -50,3 +50,4 @@ C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\Bus
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormAgregarCalificaciones.resources
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormDatosAcademicos.resources
 C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormPorcenMat.resources
+C:\Users\georg\source\Repos\ProyectoSEDENA\BusinessIntelligence_v1\obj\Debug\BusinessIntelligence_v1.FormPorcenEspe.resources

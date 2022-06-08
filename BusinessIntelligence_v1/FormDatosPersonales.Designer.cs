@@ -81,6 +81,7 @@ namespace BusinessIntelligence_v1
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Location = new System.Drawing.Point(677, 3);
             this.pictureBox1.Name = "pictureBox1";
@@ -92,6 +93,9 @@ namespace BusinessIntelligence_v1
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.textBox21);
             this.panel1.Controls.Add(this.textBox20);
@@ -145,6 +149,8 @@ namespace BusinessIntelligence_v1
             // 
             // textBox21
             // 
+            this.textBox21.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox21.Location = new System.Drawing.Point(566, 455);
             this.textBox21.Name = "textBox21";
             this.textBox21.ReadOnly = true;
@@ -153,6 +159,9 @@ namespace BusinessIntelligence_v1
             // 
             // textBox20
             // 
+            this.textBox20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox20.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox20.Location = new System.Drawing.Point(234, 424);
             this.textBox20.Name = "textBox20";
@@ -162,6 +171,9 @@ namespace BusinessIntelligence_v1
             // 
             // textBox15
             // 
+            this.textBox15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox15.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox15.Location = new System.Drawing.Point(194, 238);
             this.textBox15.Name = "textBox15";
@@ -171,6 +183,8 @@ namespace BusinessIntelligence_v1
             // 
             // textBox14
             // 
+            this.textBox14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox14.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox14.Location = new System.Drawing.Point(497, 207);
             this.textBox14.Name = "textBox14";
@@ -180,6 +194,9 @@ namespace BusinessIntelligence_v1
             // 
             // textBox12
             // 
+            this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox12.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox12.Location = new System.Drawing.Point(65, 176);
             this.textBox12.Name = "textBox12";
@@ -189,6 +206,9 @@ namespace BusinessIntelligence_v1
             // 
             // textBox5
             // 
+            this.textBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.Location = new System.Drawing.Point(130, 114);
             this.textBox5.Name = "textBox5";
@@ -206,9 +226,13 @@ namespace BusinessIntelligence_v1
             this.label23.Size = new System.Drawing.Size(179, 17);
             this.label23.TabIndex = 136;
             this.label23.Text = "PROMEDIO BACHILLERATO:";
+            this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
             // textBox22
             // 
+            this.textBox22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox22.Location = new System.Drawing.Point(197, 483);
             this.textBox22.Name = "textBox22";
             this.textBox22.ReadOnly = true;
@@ -225,9 +249,13 @@ namespace BusinessIntelligence_v1
             this.label24.Size = new System.Drawing.Size(166, 17);
             this.label24.TabIndex = 134;
             this.label24.Text = "PROMEDIO SECUNDARIA:";
+            this.label24.Click += new System.EventHandler(this.label24_Click);
             // 
             // textBox23
             // 
+            this.textBox23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox23.Location = new System.Drawing.Point(183, 455);
             this.textBox23.Name = "textBox23";
             this.textBox23.ReadOnly = true;
@@ -236,6 +264,8 @@ namespace BusinessIntelligence_v1
             // 
             // label22
             // 
+            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.White;
@@ -255,6 +285,7 @@ namespace BusinessIntelligence_v1
             this.label21.Size = new System.Drawing.Size(217, 17);
             this.label21.TabIndex = 131;
             this.label21.Text = "ÁREA ESCUELA DE PROCEDENCIA:";
+            this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
             // label20
             // 
@@ -266,9 +297,13 @@ namespace BusinessIntelligence_v1
             this.label20.Size = new System.Drawing.Size(180, 17);
             this.label20.TabIndex = 130;
             this.label20.Text = "ESCUELA DE PROCEDENCIA:";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // textBox19
             // 
+            this.textBox19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox19.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox19.Location = new System.Drawing.Point(197, 393);
             this.textBox19.Name = "textBox19";
@@ -286,9 +321,13 @@ namespace BusinessIntelligence_v1
             this.label19.Size = new System.Drawing.Size(158, 17);
             this.label19.TabIndex = 128;
             this.label19.Text = "NOMBRE DE LA MADRE:";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // textBox18
             // 
+            this.textBox18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox18.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox18.Location = new System.Drawing.Point(175, 362);
             this.textBox18.Name = "textBox18";
@@ -306,9 +345,13 @@ namespace BusinessIntelligence_v1
             this.label18.Size = new System.Drawing.Size(140, 17);
             this.label18.TabIndex = 126;
             this.label18.Text = "NOMBRE DEL PADRE:";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // textBox17
             // 
+            this.textBox17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox17.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox17.Location = new System.Drawing.Point(157, 331);
             this.textBox17.Name = "textBox17";
@@ -326,9 +369,13 @@ namespace BusinessIntelligence_v1
             this.label12.Size = new System.Drawing.Size(142, 17);
             this.label12.TabIndex = 122;
             this.label12.Text = "NOMBRE DEL TUTOR:";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // textBox11
             // 
+            this.textBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox11.Location = new System.Drawing.Point(159, 269);
             this.textBox11.Name = "textBox11";
@@ -346,6 +393,7 @@ namespace BusinessIntelligence_v1
             this.label13.Size = new System.Drawing.Size(177, 17);
             this.label13.TabIndex = 120;
             this.label13.Text = "ENTIDAD DE NACIMIENTO:";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label14
             // 
@@ -357,9 +405,13 @@ namespace BusinessIntelligence_v1
             this.label14.Size = new System.Drawing.Size(112, 17);
             this.label14.TabIndex = 119;
             this.label14.Text = "NACIONALIDAD:";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // textBox13
             // 
+            this.textBox13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox13.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox13.Location = new System.Drawing.Point(129, 300);
             this.textBox13.Name = "textBox13";
@@ -369,6 +421,8 @@ namespace BusinessIntelligence_v1
             // 
             // label15
             // 
+            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.White;
@@ -388,6 +442,7 @@ namespace BusinessIntelligence_v1
             this.label16.Size = new System.Drawing.Size(45, 17);
             this.label16.TabIndex = 116;
             this.label16.Text = "SEXO:";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // label8
             // 
@@ -399,9 +454,13 @@ namespace BusinessIntelligence_v1
             this.label8.Size = new System.Drawing.Size(127, 17);
             this.label8.TabIndex = 113;
             this.label8.Text = "CARTILLA MILITAR:";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // textBox7
             // 
+            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox7.Location = new System.Drawing.Point(144, 207);
             this.textBox7.Name = "textBox7";
@@ -411,6 +470,8 @@ namespace BusinessIntelligence_v1
             // 
             // label9
             // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
@@ -422,6 +483,8 @@ namespace BusinessIntelligence_v1
             // 
             // textBox8
             // 
+            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox8.Location = new System.Drawing.Point(393, 145);
             this.textBox8.Name = "textBox8";
@@ -439,9 +502,13 @@ namespace BusinessIntelligence_v1
             this.label10.Size = new System.Drawing.Size(45, 17);
             this.label10.TabIndex = 109;
             this.label10.Text = "CURP:";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // textBox9
             // 
+            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox9.Location = new System.Drawing.Point(65, 145);
             this.textBox9.Name = "textBox9";
@@ -451,6 +518,8 @@ namespace BusinessIntelligence_v1
             // 
             // label11
             // 
+            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
@@ -462,6 +531,8 @@ namespace BusinessIntelligence_v1
             // 
             // textBox10
             // 
+            this.textBox10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox10.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox10.Location = new System.Drawing.Point(426, 114);
             this.textBox10.Name = "textBox10";
@@ -479,9 +550,12 @@ namespace BusinessIntelligence_v1
             this.label6.Size = new System.Drawing.Size(113, 17);
             this.label6.TabIndex = 105;
             this.label6.Text = "GRADO MILITAR:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
@@ -493,6 +567,8 @@ namespace BusinessIntelligence_v1
             // 
             // textBox4
             // 
+            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(499, 83);
             this.textBox4.Name = "textBox4";
@@ -510,9 +586,13 @@ namespace BusinessIntelligence_v1
             this.label4.Size = new System.Drawing.Size(136, 17);
             this.label4.TabIndex = 102;
             this.label4.Text = "APELLIDO PATERNO:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox3
             // 
+            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(155, 83);
             this.textBox3.Name = "textBox3";
@@ -522,6 +602,8 @@ namespace BusinessIntelligence_v1
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
@@ -533,6 +615,8 @@ namespace BusinessIntelligence_v1
             // 
             // textBox2
             // 
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(442, 52);
             this.textBox2.Name = "textBox2";
@@ -550,9 +634,13 @@ namespace BusinessIntelligence_v1
             this.label2.Size = new System.Drawing.Size(85, 17);
             this.label2.TabIndex = 98;
             this.label2.Text = "MATRÍCULA:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(102, 52);
             this.textBox1.Name = "textBox1";
@@ -562,10 +650,12 @@ namespace BusinessIntelligence_v1
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(320, 0);
+            this.label1.Location = new System.Drawing.Point(320, 5);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(281, 37);

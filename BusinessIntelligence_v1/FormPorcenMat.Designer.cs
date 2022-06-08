@@ -49,7 +49,7 @@ namespace BusinessIntelligence_v1
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(801, 426);
+            this.chart1.Size = new System.Drawing.Size(908, 426);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
@@ -66,7 +66,7 @@ namespace BusinessIntelligence_v1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(171)))), ((int)(((byte)(27)))));
-            this.ClientSize = new System.Drawing.Size(825, 476);
+            this.ClientSize = new System.Drawing.Size(932, 481);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.chart1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

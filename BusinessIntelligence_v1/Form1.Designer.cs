@@ -31,19 +31,19 @@ namespace BusinessIntelligence_v1
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -53,6 +53,8 @@ namespace BusinessIntelligence_v1
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(171)))), ((int)(((byte)(27)))));
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox3);
@@ -62,18 +64,6 @@ namespace BusinessIntelligence_v1
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1181, 50);
             this.panel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(600, 7);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(386, 37);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Escuela Militar de Ingenieros";
             // 
             // pictureBox3
             // 
@@ -97,6 +87,7 @@ namespace BusinessIntelligence_v1
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.Image = global::BusinessIntelligence_v1.Properties.Resources.escudo_emi2;
             this.pictureBox1.Location = new System.Drawing.Point(1130, 2);
@@ -108,6 +99,10 @@ namespace BusinessIntelligence_v1
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Location = new System.Drawing.Point(0, 93);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1180, 562);
@@ -115,6 +110,8 @@ namespace BusinessIntelligence_v1
             // 
             // panel5
             // 
+            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel5.Controls.Add(this.button7);
             this.panel5.Controls.Add(this.button4);
@@ -123,10 +120,20 @@ namespace BusinessIntelligence_v1
             this.panel5.Controls.Add(this.button1);
             this.panel5.Controls.Add(this.button5);
             this.panel5.Controls.Add(this.button3);
-            this.panel5.Location = new System.Drawing.Point(3, 60);
+            this.panel5.Location = new System.Drawing.Point(3, 56);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1165, 31);
+            this.panel5.Size = new System.Drawing.Size(1172, 31);
             this.panel5.TabIndex = 2;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(575, 2);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(214, 23);
+            this.button7.TabIndex = 10;
+            this.button7.Text = "AGREGAR CALIFICACIONES DISCENTE";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button4
             // 
@@ -140,8 +147,9 @@ namespace BusinessIntelligence_v1
             // 
             // button2
             // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.BackColor = System.Drawing.Color.Salmon;
-            this.button2.Location = new System.Drawing.Point(1083, 1);
+            this.button2.Location = new System.Drawing.Point(1090, 1);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 8;
@@ -161,8 +169,9 @@ namespace BusinessIntelligence_v1
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Location = new System.Drawing.Point(970, 2);
+            this.button1.Location = new System.Drawing.Point(977, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 23);
             this.button1.TabIndex = 7;
@@ -190,15 +199,19 @@ namespace BusinessIntelligence_v1
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button7
+            // label1
             // 
-            this.button7.Location = new System.Drawing.Point(575, 2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(214, 23);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "AGREGAR CALIFICACIONES DISCENTE";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(600, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(386, 37);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Escuela Militar de Ingenieros";
             // 
             // Form1
             // 
@@ -231,7 +244,6 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button6;
@@ -241,6 +253,7 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label1;
     }
 }
 

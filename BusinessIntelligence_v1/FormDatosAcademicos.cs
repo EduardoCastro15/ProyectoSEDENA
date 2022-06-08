@@ -23,7 +23,8 @@ namespace BusinessIntelligence_v1
 
         private void FormDatosAcademicos_Load(object sender, EventArgs e)
         {
-            double suma = 0.0;
+            double sumaMate = 0.0;
+            double sumaEspe = 0.0;
             BusinessIntelligence_v1.ConexionBD conexion = new BusinessIntelligence_v1.ConexionBD();
             conn = conexion.ConectarMysql();
 
@@ -222,71 +223,83 @@ namespace BusinessIntelligence_v1
                     if (textBox9.Text == null)
                         textBox9.Text = "0.0";
 
-                    suma += double.Parse(textBox1.Text);
-                    suma += double.Parse(textBox10.Text);
-                    suma += double.Parse(textBox11.Text);
-                    suma += double.Parse(textBox12.Text);
-                    suma += double.Parse(textBox13.Text);
-                    suma += double.Parse(textBox14.Text);
-                    suma += double.Parse(textBox15.Text);
-                    suma += double.Parse(textBox16.Text);
-                    suma += double.Parse(textBox17.Text);
-                    suma += double.Parse(textBox18.Text);
-                    suma += double.Parse(textBox19.Text);
-                    suma += double.Parse(textBox2.Text);
-                    suma += double.Parse(textBox20.Text);
-                    suma += double.Parse(textBox21.Text);
-                    suma += double.Parse(textBox22.Text);
-                    suma += double.Parse(textBox23.Text);
-                    suma += double.Parse(textBox24.Text);
-                    suma += double.Parse(textBox25.Text);
-                    suma += double.Parse(textBox26.Text);
-                    suma += double.Parse(textBox27.Text);
-                    suma += double.Parse(textBox28.Text);
-                    suma += double.Parse(textBox29.Text);
-                    suma += double.Parse(textBox3.Text);
-                    suma += double.Parse(textBox30.Text);
-                    suma += double.Parse(textBox31.Text);
-                    suma += double.Parse(textBox32.Text);
-                    suma += double.Parse(textBox33.Text);
-                    suma += double.Parse(textBox34.Text);
-                    suma += double.Parse(textBox35.Text);
-                    suma += double.Parse(textBox36.Text);
-                    suma += double.Parse(textBox37.Text);
-                    suma += double.Parse(textBox38.Text);
-                    suma += double.Parse(textBox39.Text);
-                    suma += double.Parse(textBox4.Text);
-                    suma += double.Parse(textBox40.Text);
-                    suma += double.Parse(textBox41.Text);
-                    suma += double.Parse(textBox42.Text);
-                    suma += double.Parse(textBox43.Text);
-                    suma += double.Parse(textBox44.Text);
-                    suma += double.Parse(textBox45.Text);
-                    suma += double.Parse(textBox46.Text);
-                    suma += double.Parse(textBox47.Text);
-                    suma += double.Parse(textBox48.Text);
-                    suma += double.Parse(textBox49.Text);
-                    suma += double.Parse(textBox5.Text);
-                    suma += double.Parse(textBox50.Text);
-                    suma += double.Parse(textBox51.Text);
-                    suma += double.Parse(textBox52.Text);
-                    suma += double.Parse(textBox53.Text);
-                    suma += double.Parse(textBox54.Text);
-                    suma += double.Parse(textBox55.Text);
-                    suma += double.Parse(textBox56.Text);
-                    suma += double.Parse(textBox57.Text);
-                    suma += double.Parse(textBox6.Text);
-                    suma += double.Parse(textBox7.Text);
-                    suma += double.Parse(textBox8.Text);
-                    suma += double.Parse(textBox9.Text);
+                    //suma += double.Parse(textBox1.Text);
+                    //suma += double.Parse(textBox10.Text);
+                    //suma += double.Parse(textBox11.Text);
+                    sumaEspe += double.Parse(textBox12.Text);       //espe
+                    //suma += double.Parse(textBox13.Text);
+                    //suma += double.Parse(textBox14.Text);
+                    //suma += double.Parse(textBox15.Text);
+                    sumaMate += double.Parse(textBox16.Text);   //mate
+                    //suma += double.Parse(textBox17.Text);
+                    //suma += double.Parse(textBox18.Text);
+                    sumaEspe += double.Parse(textBox19.Text);       //espe
+                    //suma += double.Parse(textBox2.Text);
+                    //suma += double.Parse(textBox20.Text);
+                    sumaEspe += double.Parse(textBox21.Text);       //espe
+                    sumaMate += double.Parse(textBox22.Text);   //mate
+                    //suma += double.Parse(textBox23.Text);
+                    //suma += double.Parse(textBox24.Text);
+                    sumaMate += double.Parse(textBox25.Text);   //mate
+                    sumaEspe += double.Parse(textBox26.Text);       //espe
+                    //suma += double.Parse(textBox27.Text);
+                    //suma += double.Parse(textBox28.Text);
+                    //suma += double.Parse(textBox29.Text);
+                    //suma += double.Parse(textBox3.Text);
+                    //suma += double.Parse(textBox30.Text);
+                    //suma += double.Parse(textBox31.Text);
+                    sumaEspe += double.Parse(textBox32.Text);       //espe
+                    //suma += double.Parse(textBox33.Text);
+                    //suma += double.Parse(textBox34.Text);
+                    //suma += double.Parse(textBox35.Text);
+                    //suma += double.Parse(textBox36.Text);
+                    //suma += double.Parse(textBox37.Text);
+                    sumaEspe += double.Parse(textBox38.Text);       //espe
+                    //suma += double.Parse(textBox39.Text);
+                    sumaMate += double.Parse(textBox4.Text);    //mate
+                    //suma += double.Parse(textBox40.Text);
+                    //suma += double.Parse(textBox41.Text);
+                    //suma += double.Parse(textBox42.Text);
+                    sumaEspe += double.Parse(textBox43.Text);       //espe
+                    //suma += double.Parse(textBox44.Text);
+                    //suma += double.Parse(textBox45.Text);
+                    //suma += double.Parse(textBox46.Text);
+                    //suma += double.Parse(textBox47.Text);
+                    //suma += double.Parse(textBox48.Text);
+                    sumaEspe += double.Parse(textBox49.Text);       //espe
+                    //suma += double.Parse(textBox5.Text);
+                    //suma += double.Parse(textBox50.Text);
+                    //suma += double.Parse(textBox51.Text);
+                    //suma += double.Parse(textBox52.Text);
+                    //suma += double.Parse(textBox53.Text);
+                    //suma += double.Parse(textBox54.Text);
+                    sumaEspe += double.Parse(textBox55.Text);       //espe
+                    //suma += double.Parse(textBox56.Text);
+                    //suma += double.Parse(textBox57.Text);
+                    //suma += double.Parse(textBox6.Text);
+                    //suma += double.Parse(textBox7.Text);
+                    sumaMate += double.Parse(textBox8.Text);    //mate
+                    //suma += double.Parse(textBox9.Text);
                     //suma = Convert.ToDouble(textBox1.Text + textBox10.Text);
 
-                    if (suma != 0.0)
+                    if (sumaMate != 0.0)
                     {
                         button1.Visible = true;
-                        suma /= 56.0;
-                        suma = (suma * 100.0) / 10.0;
-                        textBox58.Text = suma.ToString();
+                        sumaMate /= 5.0;
+                        sumaMate = (sumaMate * 100.0) / 10.0;
+                        textBox58.Text = sumaMate.ToString();
+                    }
+                    if (sumaEspe != 0.0)
+                    {
+                        button2.Visible = true;
+                        sumaEspe /= 9.0;
+                        sumaEspe = (sumaEspe * 100.0) / 10.0;
+                        textBox59.Text = sumaEspe.ToString();
+                    }
+                    else
+                    {
+                        button1.Visible = false;
+                        button2.Visible = false;
                     }
                 }
                 else
@@ -323,6 +336,42 @@ namespace BusinessIntelligence_v1
                 panel2.Tag = formularios;
 
                 formularios.textBox1.Text = textBox58.Text;
+
+                formularios.Show();
+                formularios.BringToFront();
+            }
+            else
+            {
+                formularios.BringToFront();
+            }
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+            FormPorcenEspe formularios;
+            formularios = panel2.Controls.OfType<FormPorcenEspe>().FirstOrDefault();
+            if (formularios == null)
+            {
+                formularios = new FormPorcenEspe()
+                {
+                    TopLevel = false,
+                    Dock = DockStyle.Fill
+                };
+                panel2.Controls.Add(formularios);
+                panel2.Tag = formularios;
+
+                formularios.textBox1.Text = textBox59.Text;
 
                 formularios.Show();
                 formularios.BringToFront();
