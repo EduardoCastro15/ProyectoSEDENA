@@ -49,8 +49,8 @@ namespace BusinessIntelligence_v1
                 cmd = new MySqlCommand();
                 cmd.Connection = conn;
                 cmd.CommandText = ("select matricula_discente, nombre_discente, apellido_paterno_discente, apellido_materno_discente, " +
-                                        "grado_militar, plantel, CURP, RFC, cartilla_militar, pasaporte, sexo, fecha_nacimiento, nacionalidad, entidad_nacimiento, " +
-                                        "nombre_tutor, RFC_tutor, nombre_padre, nombre_madre, escuela_procedencia, tipo_escuela_procedencia, entidad_federativa_escuela, " +
+                                        "grado_militar, plantel, CURP, RFC, cartilla_militar, sexo, fecha_nacimiento, nacionalidad, entidad_nacimiento, " +
+                                        "nombre_tutor, nombre_padre, nombre_madre, escuela_procedencia, tipo_escuela_procedencia, entidad_federativa_escuela, " +
                                         "promedio_secundaria, promedio_bachillerato, foto from discentes where matricula_discente = '" + textBox1.Text + "' ");
                 MySqlDataReader leer = cmd.ExecuteReader();
                 if (leer.HasRows)
@@ -66,7 +66,6 @@ namespace BusinessIntelligence_v1
                     textBox13.Text = leer["nacionalidad"].ToString();
                     textBox14.Text = leer["fecha_nacimiento"].ToString();
                     textBox15.Text = leer["entidad_nacimiento"].ToString();
-                    textBox16.Text = leer["RFC_tutor"].ToString();
                     textBox17.Text = leer["nombre_padre"].ToString();
                     textBox18.Text = leer["nombre_madre"].ToString();
                     textBox19.Text = leer["escuela_procedencia"].ToString();
@@ -78,7 +77,6 @@ namespace BusinessIntelligence_v1
                     textBox3.Text = leer["apellido_paterno_discente"].ToString();
                     textBox4.Text = leer["apellido_materno_discente"].ToString();
                     textBox5.Text = leer["grado_militar"].ToString();
-                    textBox6.Text = leer["pasaporte"].ToString();
                     textBox7.Text = leer["cartilla_militar"].ToString();
                     textBox8.Text = leer["RFC"].ToString();
                     textBox9.Text = leer["CURP"].ToString();

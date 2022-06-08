@@ -64,12 +64,10 @@ namespace BusinessIntelligence_v1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "" || textBox10.Text == "" || textBox11.Text == "" ||
-                textBox13.Text == "" || textBox16.Text == "" || textBox17.Text == "" ||
-                textBox18.Text == "" || textBox19.Text == "" || textBox2.Text == "" || textBox13.Text == "" ||
-                textBox22.Text == "" || textBox23.Text == "" || textBox24.Text == "" || textBox25.Text == "" ||
-                textBox3.Text == "" || textBox4.Text == "" || textBox28.Text == "" ||
-                textBox6.Text == "" || textBox7.Text == "" || textBox8.Text == "" || textBox9.Text == "" ||
+            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" || textBox10.Text == "" ||
+                textBox9.Text == "" || textBox8.Text == "" || textBox7.Text == "" || textBox11.Text == "" ||
+                textBox13.Text == "" || textBox17.Text == "" || textBox18.Text == "" || textBox19.Text == "" ||
+                textBox23.Text == "" || textBox22.Text == "" || textBox24.Text == "" || textBox25.Text == "" || textBox28.Text == "" ||
                 comboBox1.SelectedIndex == -1 || comboBox10.SelectedIndex == -1 || comboBox11.SelectedIndex == -1 || comboBox12.SelectedIndex == -1 || comboBox14.SelectedIndex == -1 ||
                 comboBox2.SelectedIndex == -1 || comboBox3.SelectedIndex == -1 || comboBox4.SelectedIndex == -1 || comboBox5.SelectedIndex == -1 || comboBox13.SelectedIndex == -1 ||
                 comboBox6.SelectedIndex == -1 || comboBox7.SelectedIndex == -1 || comboBox8.SelectedIndex == -1 || comboBox9.SelectedIndex == -1)
@@ -88,10 +86,6 @@ namespace BusinessIntelligence_v1
                     textBox5.Text = null;
                 if (comboBox4.Text == "NO")
                     textBox12.Text = null;
-                if (comboBox5.Text == "NO")
-                    textBox35.Text = null;
-                if (textBox30.Text == "NO")
-                    textBox5.Text = null;
                 if (comboBox13.Text == "NO")
                 {
                     textBox14.Text = null;
@@ -117,17 +111,17 @@ namespace BusinessIntelligence_v1
                     byte[] bByte = msHorario.ToArray();
 
                     cmd.CommandText = ("insert into discentes(matricula_discente, nombre_discente, apellido_paterno_discente, apellido_materno_discente, " +
-                                        "grado_militar, plantel, CURP, RFC, cartilla_militar, pasaporte, sexo, fecha_nacimiento, nacionalidad, entidad_nacimiento, " +
-                                        "nombre_tutor, RFC_tutor, nombre_padre, nombre_madre, escuela_procedencia, tipo_escuela_procedencia, entidad_federativa_escuela, " +
+                                        "grado_militar, plantel, CURP, RFC, cartilla_militar, sexo, fecha_nacimiento, nacionalidad, entidad_nacimiento, " +
+                                        "nombre_tutor, nombre_padre, nombre_madre, escuela_procedencia, tipo_escuela_procedencia, entidad_federativa_escuela, " +
                                         "promedio_secundaria, promedio_bachillerato, foto, practica_deporte, nombre_deporte, nombre_entrenador, categoria, fecha_inicio, lugar, " +
                                         "horario_deporte, asociacion, peso, estatura, tipo_sangre, padece_enfermedad, descripcion_enfermedad, problema_fisico, descripcion_problema, " +
-                                        "operacion_fisica, descripcion_operacion, tatuajes, num_tatuajes, pie_plano, lentes, carrera, promedio, foto_horario) " +
+                                        "operacion_fisica, descripcion_operacion, tatuajes, pie_plano, lentes, carrera, promedio, foto_horario) " +
                                         "values('" + textBox1.Text + "', '" + textBox2.Text + "', '" + textBox3.Text + "', '" + textBox4.Text +
-                                        "', '" + comboBox8.Text + "', '" + textBox10.Text + "', '" + textBox9.Text + "', '" + textBox8.Text + "', '" + textBox7.Text + "', '" + textBox6.Text + "', '" + comboBox9.Text + "', '" + dateTimePicker1.Text + "', '" + textBox13.Text + "', '" + comboBox10.Text +
-                                        "', '" + textBox11.Text + "', '" + textBox16.Text + "', '" + textBox17.Text + "', '" + textBox18.Text + "', '" + textBox19.Text + "', '" + comboBox11.Text + "', '" + comboBox12.Text +
+                                        "', '" + comboBox8.Text + "', '" + textBox10.Text + "', '" + textBox9.Text + "', '" + textBox8.Text + "', '" + textBox7.Text + "', '" + comboBox9.Text + "', '" + dateTimePicker1.Text + "', '" + textBox13.Text + "', '" + comboBox10.Text +
+                                        "', '" + textBox11.Text + "', '" + textBox17.Text + "', '" + textBox18.Text + "', '" + textBox19.Text + "', '" + comboBox11.Text + "', '" + comboBox12.Text +
                                         "', '" + textBox23.Text + "', '" + textBox22.Text + "', @imagen, '" + comboBox13.Text + "', '" + textBox14.Text + "', '" + textBox15.Text + "', '" + textBox20.Text + "', '" + dateTimePicker2.Text + "', '" + textBox21.Text + 
                                         "', '" + textBox26.Text + "', '" + textBox27.Text + "', '" + textBox24.Text + "', '" + textBox25.Text + "', '" + comboBox1.Text + "', '" + comboBox2.Text + "', '" + textBox29.Text + "', '" + comboBox3.Text + "', '" + textBox5.Text + 
-                                        "', '" + comboBox4.Text + "', '" + textBox12.Text + "', '" + comboBox5.Text + "', '" + textBox35.Text + "', '" + comboBox6.Text + "', '" + comboBox7.Text + "', '" + comboBox14.Text + "', '" + textBox28.Text + "', @horario);");
+                                        "', '" + comboBox4.Text + "', '" + textBox12.Text + "', '" + comboBox5.Text + "', '" + comboBox6.Text + "', '" + comboBox7.Text + "', '" + comboBox14.Text + "', '" + textBox28.Text + "', @horario);");
                     cmd.Parameters.AddWithValue("imagen", aByte);
                     cmd.Parameters.AddWithValue("horario", bByte);
                     cmd.ExecuteNonQuery();
@@ -155,7 +149,6 @@ namespace BusinessIntelligence_v1
                 textBox13.Text = "";
                 textBox14.Text = "";
                 textBox15.Text = "";
-                textBox16.Text = "";
                 textBox17.Text = "";
                 textBox18.Text = "";
                 textBox19.Text = "";
@@ -173,10 +166,8 @@ namespace BusinessIntelligence_v1
                 textBox3.Text = "";
                 textBox30.Text = "";
                 textBox31.Text = "";
-                textBox35.Text = "";
                 textBox4.Text = "";
                 textBox5.Text = "";
-                textBox6.Text = "";
                 textBox7.Text = "";
                 textBox8.Text = "";
                 textBox9.Text = "";

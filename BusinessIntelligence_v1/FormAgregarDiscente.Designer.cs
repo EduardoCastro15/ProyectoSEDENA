@@ -81,8 +81,6 @@ namespace BusinessIntelligence_v1
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label39 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.textBox35 = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
@@ -109,8 +107,6 @@ namespace BusinessIntelligence_v1
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.textBox17 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -118,8 +114,6 @@ namespace BusinessIntelligence_v1
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -203,8 +197,6 @@ namespace BusinessIntelligence_v1
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label39);
             this.panel1.Controls.Add(this.label36);
-            this.panel1.Controls.Add(this.label37);
-            this.panel1.Controls.Add(this.textBox35);
             this.panel1.Controls.Add(this.label32);
             this.panel1.Controls.Add(this.label33);
             this.panel1.Controls.Add(this.label34);
@@ -231,8 +223,6 @@ namespace BusinessIntelligence_v1
             this.panel1.Controls.Add(this.textBox18);
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.textBox17);
-            this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.textBox16);
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.textBox11);
             this.panel1.Controls.Add(this.label13);
@@ -240,8 +230,6 @@ namespace BusinessIntelligence_v1
             this.panel1.Controls.Add(this.textBox13);
             this.panel1.Controls.Add(this.label15);
             this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.textBox6);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.textBox7);
             this.panel1.Controls.Add(this.label9);
@@ -851,25 +839,6 @@ namespace BusinessIntelligence_v1
             this.label36.TabIndex = 81;
             this.label36.Text = "PIE PLANO?:";
             // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.White;
-            this.label37.Location = new System.Drawing.Point(480, 445);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(53, 12);
-            this.label37.TabIndex = 79;
-            this.label37.Text = "# TATUAJES:";
-            // 
-            // textBox35
-            // 
-            this.textBox35.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox35.Location = new System.Drawing.Point(539, 442);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(95, 19);
-            this.textBox35.TabIndex = 78;
-            // 
             // label32
             // 
             this.label32.AutoSize = true;
@@ -1130,24 +1099,6 @@ namespace BusinessIntelligence_v1
             this.textBox17.Size = new System.Drawing.Size(337, 20);
             this.textBox17.TabIndex = 43;
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(246, 242);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(69, 12);
-            this.label17.TabIndex = 42;
-            this.label17.Text = "RFC DEL TUTOR:";
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(321, 239);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(113, 20);
-            this.textBox16.TabIndex = 41;
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -1216,24 +1167,6 @@ namespace BusinessIntelligence_v1
             this.label16.Size = new System.Drawing.Size(29, 12);
             this.label16.TabIndex = 32;
             this.label16.Text = "SEXO:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(234, 138);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(55, 12);
-            this.label7.TabIndex = 30;
-            this.label7.Text = "PASAPORTE:";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(293, 135);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(141, 20);
-            this.textBox6.TabIndex = 29;
             // 
             // label8
             // 
@@ -1432,8 +1365,6 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label9;
@@ -1455,8 +1386,6 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.TextBox textBox18;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox16;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.TextBox textBox22;
@@ -1465,8 +1394,6 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.TextBox textBox35;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;

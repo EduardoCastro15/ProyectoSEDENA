@@ -33,7 +33,7 @@ namespace BusinessIntelligence_v1
                 cmd = new MySqlCommand();
                 cmd.Connection = conn;
                 cmd.CommandText = ("select peso, estatura, tipo_sangre, padece_enfermedad, descripcion_enfermedad, problema_fisico, descripcion_problema, " +
-                                   "operacion_fisica, descripcion_operacion, tatuajes, num_tatuajes, pie_plano, lentes from discentes where matricula_discente = '" + textBox1.Text + "' ");
+                                   "operacion_fisica, descripcion_operacion, tatuajes, pie_plano, lentes from discentes where matricula_discente = '" + textBox1.Text + "' ");
                 MySqlDataReader leer = cmd.ExecuteReader();
                 if (leer.HasRows)
                 {
@@ -41,7 +41,6 @@ namespace BusinessIntelligence_v1
 
                     textBox10.Text = leer["pie_plano"].ToString();
                     textBox11.Text = leer["tatuajes"].ToString();
-                    textBox12.Text = leer["num_tatuajes"].ToString();
                     textBox13.Text = leer["peso"].ToString();
                     textBox17.Text = leer["descripcion_enfermedad"].ToString();
                     textBox2.Text = leer["estatura"].ToString();

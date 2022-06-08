@@ -50,8 +50,6 @@ namespace BusinessIntelligence_v1
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.textBox17 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -59,8 +57,6 @@ namespace BusinessIntelligence_v1
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -115,8 +111,6 @@ namespace BusinessIntelligence_v1
             this.panel1.Controls.Add(this.textBox18);
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.textBox17);
-            this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.textBox16);
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.textBox11);
             this.panel1.Controls.Add(this.label13);
@@ -124,8 +118,6 @@ namespace BusinessIntelligence_v1
             this.panel1.Controls.Add(this.textBox13);
             this.panel1.Controls.Add(this.label15);
             this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.textBox6);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.textBox7);
             this.panel1.Controls.Add(this.label9);
@@ -324,26 +316,6 @@ namespace BusinessIntelligence_v1
             this.textBox17.Size = new System.Drawing.Size(754, 25);
             this.textBox17.TabIndex = 125;
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(352, 303);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(110, 17);
-            this.label17.TabIndex = 124;
-            this.label17.Text = "RFC DEL TUTOR:";
-            // 
-            // textBox16
-            // 
-            this.textBox16.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(468, 300);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.ReadOnly = true;
-            this.textBox16.Size = new System.Drawing.Size(196, 25);
-            this.textBox16.TabIndex = 123;
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -416,26 +388,6 @@ namespace BusinessIntelligence_v1
             this.label16.Size = new System.Drawing.Size(45, 17);
             this.label16.TabIndex = 116;
             this.label16.Text = "SEXO:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(352, 179);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(85, 17);
-            this.label7.TabIndex = 115;
-            this.label7.Text = "PASAPORTE:";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(443, 176);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(221, 25);
-            this.textBox6.TabIndex = 114;
             // 
             // label8
             // 
@@ -656,13 +608,11 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
@@ -679,10 +629,8 @@ namespace BusinessIntelligence_v1
         public System.Windows.Forms.TextBox textBox19;
         public System.Windows.Forms.TextBox textBox18;
         public System.Windows.Forms.TextBox textBox17;
-        public System.Windows.Forms.TextBox textBox16;
         public System.Windows.Forms.TextBox textBox11;
         public System.Windows.Forms.TextBox textBox13;
-        public System.Windows.Forms.TextBox textBox6;
         public System.Windows.Forms.TextBox textBox7;
         public System.Windows.Forms.TextBox textBox8;
         public System.Windows.Forms.TextBox textBox9;
