@@ -56,7 +56,7 @@ namespace BusinessIntelligence_v1
                 chart1.Titles.Add(titulo);
 
                 Series serie = new Series("Origen");
-                serie.ChartType = SeriesChartType.Spline;
+                serie.ChartType = SeriesChartType.Column;
                 serie.XValueMember = "entidad_nacimiento";
                 serie.YValueMembers = "Total";
                 serie.IsValueShownAsLabel = true;

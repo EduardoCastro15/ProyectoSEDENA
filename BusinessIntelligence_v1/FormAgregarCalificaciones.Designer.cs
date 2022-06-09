@@ -813,8 +813,8 @@ namespace BusinessIntelligence_v1
             // 
             // panel7
             // 
-            this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel7.AutoSize = true;
             this.panel7.Controls.Add(this.label62);
             this.panel7.Controls.Add(this.label24);
             this.panel7.Controls.Add(this.textBox24);
@@ -1429,6 +1429,7 @@ namespace BusinessIntelligence_v1
             // 
             this.panel12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel12.AutoSize = true;
             this.panel12.Controls.Add(this.label67);
             this.panel12.Controls.Add(this.label52);
             this.panel12.Controls.Add(this.textBox52);
@@ -2051,6 +2052,7 @@ namespace BusinessIntelligence_v1
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             this.panel9.ResumeLayout(false);
