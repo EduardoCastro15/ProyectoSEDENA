@@ -23,8 +23,17 @@ namespace BusinessIntelligence_v1
         private void FormPorcenMat_Load(object sender, EventArgs e)
         {
             double suma = double.Parse(textBox1.Text);
+            double resto;
             if (suma > 100.0)
                 suma = 100.0;
+            else if (suma < 0.0)
+                suma = 0.0;
+
+            resto = 100 - suma;
+            if (resto > 100.0)
+                resto = 100.0;
+            else if (resto < 0.0)
+                resto = 0.0;
 
             chart1.Titles.Clear();
             chart1.Series.Clear();
@@ -43,7 +52,7 @@ namespace BusinessIntelligence_v1
             Series serie = new Series("Sexo");
             serie.ChartType = SeriesChartType.Pie;
             serie.Points.AddXY("Porcentaje de lógica matemática", suma);
-            serie.Points.AddXY("Resto", 100 - suma);
+            serie.Points.AddXY("Resto", resto);
             serie.IsValueShownAsLabel = true;
 
             chart1.Series.Add(serie);

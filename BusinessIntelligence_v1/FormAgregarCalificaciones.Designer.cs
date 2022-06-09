@@ -168,6 +168,7 @@ namespace BusinessIntelligence_v1
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label68 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel11.SuspendLayout();
@@ -215,6 +216,7 @@ namespace BusinessIntelligence_v1
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Controls.Add(this.label68);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.label1);
@@ -2037,6 +2039,19 @@ namespace BusinessIntelligence_v1
             this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label68.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label68.ForeColor = System.Drawing.Color.Black;
+            this.label68.Location = new System.Drawing.Point(346, 12);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(393, 13);
+            this.label68.TabIndex = 134;
+            this.label68.Text = "*NOTA: No escribir nada si el discente no ha cursado la unidad de aprendizaje.";
+            this.label68.Visible = false;
+            // 
             // FormAgregarCalificaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2218,5 +2233,6 @@ namespace BusinessIntelligence_v1
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label68;
     }
 }

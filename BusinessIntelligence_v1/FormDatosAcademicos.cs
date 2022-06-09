@@ -108,119 +108,119 @@ namespace BusinessIntelligence_v1
                     textBox56.Text = leer["laboratorio_de_ingenieria_de_redes"].ToString();
                     textBox57.Text = leer["ingenieria_de_redes_III"].ToString();
 
-                    if (textBox1.Text == null)
+                    if (textBox1.Text == "-1.0")
                         textBox1.Text = "0.0";
-                    if (textBox10.Text == null)
+                    if (textBox10.Text == "-1.0")
                         textBox10.Text = "0.0";
-                    if (textBox11.Text == null)
+                    if (textBox11.Text == "-1.0")
                         textBox11.Text = "0.0";
-                    if (textBox12.Text == null)
+                    if (textBox12.Text == "-1.0")
                         textBox12.Text = "0.0";
-                    if (textBox13.Text == null)
+                    if (textBox13.Text == "-1.0")
                         textBox13.Text = "0.0";
-                    if (textBox14.Text == null)
+                    if (textBox14.Text == "-1.0")
                         textBox14.Text = "0.0";
-                    if (textBox15.Text == null)
+                    if (textBox15.Text == "-1.0")
                         textBox15.Text = "0.0";
-                    if (textBox16.Text == null)
+                    if (textBox16.Text == "-1.0")
                         textBox16.Text = "0.0";
-                    if (textBox17.Text == null)
+                    if (textBox17.Text == "-1.0")
                         textBox17.Text = "0.0";
-                    if (textBox18.Text == null)
+                    if (textBox18.Text == "-1.0")
                         textBox18.Text = "0.0";
-                    if (textBox19.Text == null)
+                    if (textBox19.Text == "-1.0")
                         textBox19.Text = "0.0";
-                    if (textBox2.Text == null)
+                    if (textBox2.Text == "-1.0")
                         textBox2.Text = "0.0";
-                    if (textBox20.Text == null)
+                    if (textBox20.Text == "-1.0")
                         textBox20.Text = "0.0";
-                    if (textBox21.Text == null)
+                    if (textBox21.Text == "-1.0")
                         textBox21.Text = "0.0";
-                    if (textBox22.Text == null)
+                    if (textBox22.Text == "-1.0")
                         textBox22.Text = "0.0";
-                    if (textBox23.Text == null)
+                    if (textBox23.Text == "-1.0")
                         textBox23.Text = "0.0";
-                    if (textBox24.Text == null)
+                    if (textBox24.Text == "-1.0")
                         textBox24.Text = "0.0";
-                    if (textBox25.Text == null)
+                    if (textBox25.Text == "-1.0")
                         textBox25.Text = "0.0";
-                    if (textBox26.Text == null)
+                    if (textBox26.Text == "-1.0")
                         textBox26.Text = "0.0";
-                    if (textBox27.Text == null)
+                    if (textBox27.Text == "-1.0")
                         textBox27.Text = "0.0";
-                    if (textBox28.Text == null)
+                    if (textBox28.Text == "-1.0")
                         textBox28.Text = "0.0";
-                    if (textBox29.Text == null)
+                    if (textBox29.Text == "-1.0")
                         textBox29.Text = "0.0";
-                    if (textBox3.Text == null)
+                    if (textBox3.Text == "-1.0")
                         textBox3.Text = "0.0";
-                    if (textBox30.Text == null)
+                    if (textBox30.Text == "-1.0")
                         textBox30.Text = "0.0";
-                    if (textBox31.Text == null)
+                    if (textBox31.Text == "-1.0")
                         textBox31.Text = "0.0";
-                    if (textBox32.Text == null)
+                    if (textBox32.Text == "-1.0")
                         textBox32.Text = "0.0";
-                    if (textBox33.Text == null)
+                    if (textBox33.Text == "-1.0")
                         textBox33.Text = "0.0";
-                    if (textBox34.Text == null)
+                    if (textBox34.Text == "-1.0")
                         textBox34.Text = "0.0";
-                    if (textBox35.Text == null)
+                    if (textBox35.Text == "-1.0")
                         textBox35.Text = "0.0";
-                    if (textBox36.Text == null)
+                    if (textBox36.Text == "-1.0")
                         textBox36.Text = "0.0";
-                    if (textBox37.Text == null)
+                    if (textBox37.Text == "-1.0")
                         textBox37.Text = "0.0";
-                    if (textBox38.Text == null)
+                    if (textBox38.Text == "-1.0")
                         textBox38.Text = "0.0";
-                    if (textBox39.Text == null)
+                    if (textBox39.Text == "-1.0")
                         textBox39.Text = "0.0";
-                    if (textBox4.Text == null)
+                    if (textBox4.Text == "-1.0")
                         textBox4.Text = "0.0";
-                    if (textBox40.Text == null)
+                    if (textBox40.Text == "-1.0")
                         textBox40.Text = "0.0";
-                    if (textBox41.Text == null)
+                    if (textBox41.Text == "-1.0")
                         textBox41.Text = "0.0";
-                    if (textBox42.Text == null)
+                    if (textBox42.Text == "-1.0")
                         textBox42.Text = "0.0";
-                    if (textBox43.Text == null)
+                    if (textBox43.Text == "-1.0")
                         textBox43.Text = "0.0";
-                    if (textBox44.Text == null)
+                    if (textBox44.Text == "-1.0")
                         textBox44.Text = "0.0";
-                    if (textBox45.Text == null)
+                    if (textBox45.Text == "-1.0")
                         textBox45.Text = "0.0";
-                    if (textBox46.Text == null)
+                    if (textBox46.Text == "-1.0")
                         textBox46.Text = "0.0";
-                    if (textBox47.Text == null)
+                    if (textBox47.Text == "-1.0")
                         textBox47.Text = "0.0";
-                    if (textBox48.Text == null)
+                    if (textBox48.Text == "-1.0")
                         textBox48.Text = "0.0";
-                    if (textBox49.Text == null)
+                    if (textBox49.Text == "-1.0")
                         textBox49.Text = "0.0";
-                    if (textBox5.Text == null)
+                    if (textBox5.Text == "-1.0")
                         textBox5.Text = "0.0";
-                    if (textBox50.Text == null)
+                    if (textBox50.Text == "-1.0")
                         textBox50.Text = "0.0";
-                    if (textBox51.Text == null)
+                    if (textBox51.Text == "-1.0")
                         textBox51.Text = "0.0";
-                    if (textBox52.Text == null)
+                    if (textBox52.Text == "-1.0")
                         textBox52.Text = "0.0";
-                    if (textBox53.Text == null)
+                    if (textBox53.Text == "-1.0")
                         textBox53.Text = "0.0";
-                    if (textBox54.Text == null)
+                    if (textBox54.Text == "-1.0")
                         textBox54.Text = "0.0";
-                    if (textBox55.Text == null)
+                    if (textBox55.Text == "-1.0")
                         textBox55.Text = "0.0";
-                    if (textBox56.Text == null)
+                    if (textBox56.Text == "-1.0")
                         textBox56.Text = "0.0";
-                    if (textBox57.Text == null)
+                    if (textBox57.Text == "-1.0")
                         textBox57.Text = "0.0";
-                    if (textBox6.Text == null)
+                    if (textBox6.Text == "-1.0")
                         textBox6.Text = "0.0";
-                    if (textBox7.Text == null)
+                    if (textBox7.Text == "-1.0")
                         textBox7.Text = "0.0";
-                    if (textBox8.Text == null)
+                    if (textBox8.Text == "-1.0")
                         textBox8.Text = "0.0";
-                    if (textBox9.Text == null)
+                    if (textBox9.Text == "-1.0")
                         textBox9.Text = "0.0";
 
                     //suma += double.Parse(textBox1.Text);
@@ -289,6 +289,12 @@ namespace BusinessIntelligence_v1
                         sumaMate = (sumaMate * 100.0) / 10.0;
                         textBox58.Text = sumaMate.ToString();
                     }
+                    else if (sumaMate == 0.0)
+                    {
+                        button1.Visible = true;
+                        sumaMate = 0.0;
+                        textBox58.Text = sumaMate.ToString();
+                    }
                     if (sumaEspe != 0.0)
                     {
                         button2.Visible = true;
@@ -296,10 +302,11 @@ namespace BusinessIntelligence_v1
                         sumaEspe = (sumaEspe * 100.0) / 10.0;
                         textBox59.Text = sumaEspe.ToString();
                     }
-                    else
+                    else if (sumaMate == 0.0)
                     {
-                        button1.Visible = false;
-                        button2.Visible = false;
+                        button1.Visible = true;
+                        sumaEspe = 0.0;
+                        textBox58.Text = sumaEspe.ToString();
                     }
                 }
                 else
