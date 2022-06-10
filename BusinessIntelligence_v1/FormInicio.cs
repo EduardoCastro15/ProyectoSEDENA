@@ -35,27 +35,32 @@ namespace BusinessIntelligence_v1
 
         private void button7_Click(object sender, EventArgs e)
         {
-            panel4.Controls.Clear();
-            FormDatosPersonales formularios;
-            formularios = panel4.Controls.OfType<FormDatosPersonales>().FirstOrDefault();
-            if (formularios == null)
+            if (textBox1.Text == "SUPERUSUARIO" || textBox2.Text == "ARCHIVO" || textBox2.Text == "SECCIÓN ACADÉMICA" || textBox2.Text == "COMANDANCIA DEL CUERPO DE CADETES Y OFICIALES SIN INSTRUCCIÓN")
             {
-                formularios = new FormDatosPersonales()
+                panel4.Controls.Clear();
+                FormDatosPersonales formularios;
+                formularios = panel4.Controls.OfType<FormDatosPersonales>().FirstOrDefault();
+                if (formularios == null)
                 {
-                    TopLevel = false,
-                    Dock = DockStyle.Fill
-                };
-                panel4.Controls.Add(formularios);
-                panel4.Tag = formularios;
-
-                formularios.textBox1.Text = matricula;
-
-                formularios.Show();
-                formularios.BringToFront();
+                    formularios = new FormDatosPersonales()
+                    {
+                        TopLevel = false,
+                        Dock = DockStyle.Fill
+                    };
+                    panel4.Controls.Add(formularios);
+                    panel4.Tag = formularios;
+                    formularios.textBox1.Text = matricula;
+                    formularios.Show();
+                    formularios.BringToFront();
+                }
+                else
+                {
+                    formularios.BringToFront();
+                }
             }
             else
             {
-                formularios.BringToFront();
+                MessageBox.Show("ACCESO UNICAMENTE PARA SUPER USUARIOS, SECCIÓN ACADÉMICA, ARCHIVO O COMANDANCIA DEL CUERPO DE CADETES Y OFICIALES SIN INSTRUCCIÓN", "ACCESO DENEGADO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -125,79 +130,94 @@ namespace BusinessIntelligence_v1
 
         private void button8_Click(object sender, EventArgs e)
         {
-            panel4.Controls.Clear();
-            FormDatosMedicos formularios;
-            formularios = panel4.Controls.OfType<FormDatosMedicos>().FirstOrDefault();
-            if (formularios == null)
+            if (textBox1.Text == "SUPERUSUARIO" || textBox2.Text == "ARCHIVO" || textBox2.Text == "PELOTÓN DE SANIDAD" || textBox2.Text == "COMANDANCIA DEL CUERPO DE CADETES Y OFICIALES SIN INSTRUCCIÓN")
             {
-                formularios = new FormDatosMedicos()
+                panel4.Controls.Clear();
+                FormDatosMedicos formularios;
+                formularios = panel4.Controls.OfType<FormDatosMedicos>().FirstOrDefault();
+                if (formularios == null)
                 {
-                    TopLevel = false,
-                    Dock = DockStyle.Fill
-                };
-                panel4.Controls.Add(formularios);
-                panel4.Tag = formularios;
-
-                formularios.textBox1.Text = matricula;
-
-                formularios.Show();
-                formularios.BringToFront();
+                    formularios = new FormDatosMedicos()
+                    {
+                        TopLevel = false,
+                        Dock = DockStyle.Fill
+                    };
+                    panel4.Controls.Add(formularios);
+                    panel4.Tag = formularios;
+                    formularios.textBox1.Text = matricula;
+                    formularios.Show();
+                    formularios.BringToFront();
+                }
+                else
+                {
+                    formularios.BringToFront();
+                }
             }
             else
             {
-                formularios.BringToFront();
+                MessageBox.Show("ACCESO UNICAMENTE PARA SUPER USUARIOS, PELOTÓN DE SANIDAD, ARCHIVO O COMANDANCIA DEL CUERPO DE CADETES Y OFICIALES SIN INSTRUCCIÓN", "ACCESO DENEGADO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            panel4.Controls.Clear();
-            FormDatosDeportivos formularios;
-            formularios = panel4.Controls.OfType<FormDatosDeportivos>().FirstOrDefault();
-            if (formularios == null)
+            if (textBox1.Text == "SUPERUSUARIO" || textBox2.Text == "ARCHIVO" || textBox2.Text == "SECCIÓN PEDAGÓGICA" || textBox2.Text == "COMANDANCIA DEL CUERPO DE CADETES Y OFICIALES SIN INSTRUCCIÓN")
             {
-                formularios = new FormDatosDeportivos()
+                panel4.Controls.Clear();
+                FormDatosDeportivos formularios;
+                formularios = panel4.Controls.OfType<FormDatosDeportivos>().FirstOrDefault();
+                if (formularios == null)
                 {
-                    TopLevel = false,
-                    Dock = DockStyle.Fill
-                };
-                panel4.Controls.Add(formularios);
-                panel4.Tag = formularios;
-
-                formularios.textBox1.Text = matricula;
-
-                formularios.Show();
-                formularios.BringToFront();
+                    formularios = new FormDatosDeportivos()
+                    {
+                        TopLevel = false,
+                        Dock = DockStyle.Fill
+                    };
+                    panel4.Controls.Add(formularios);
+                    panel4.Tag = formularios;
+                    formularios.textBox1.Text = matricula;
+                    formularios.Show();
+                    formularios.BringToFront();
+                }
+                else
+                {
+                    formularios.BringToFront();
+                }
             }
             else
             {
-                formularios.BringToFront();
+                MessageBox.Show("ACCESO UNICAMENTE PARA SUPER USUARIOS, SECCIÓN PEDAGÓGICA, ARCHIVO O COMANDANCIA DEL CUERPO DE CADETES Y OFICIALES SIN INSTRUCCIÓN", "ACCESO DENEGADO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            panel4.Controls.Clear();
-            FormDatosAcademicos formularios;
-            formularios = panel4.Controls.OfType<FormDatosAcademicos>().FirstOrDefault();
-            if (formularios == null)
+            if (textBox1.Text == "SUPERUSUARIO" || textBox2.Text == "ARCHIVO" || textBox2.Text == "SECCIÓN ACADÉMICA" || textBox2.Text == "COMANDANCIA DEL CUERPO DE CADETES Y OFICIALES SIN INSTRUCCIÓN")
             {
-                formularios = new FormDatosAcademicos()
+                panel4.Controls.Clear();
+                FormDatosAcademicos formularios;
+                formularios = panel4.Controls.OfType<FormDatosAcademicos>().FirstOrDefault();
+                if (formularios == null)
                 {
-                    TopLevel = false,
-                    Dock = DockStyle.Fill
-                };
-                panel4.Controls.Add(formularios);
-                panel4.Tag = formularios;
-
-                formularios.textBox1.Text = matricula;
-
-                formularios.Show();
-                formularios.BringToFront();
+                    formularios = new FormDatosAcademicos()
+                    {
+                        TopLevel = false,
+                        Dock = DockStyle.Fill
+                    };
+                    panel4.Controls.Add(formularios);
+                    panel4.Tag = formularios;
+                    formularios.textBox1.Text = matricula;
+                    formularios.Show();
+                    formularios.BringToFront();
+                }
+                else
+                {
+                    formularios.BringToFront();
+                }
             }
             else
             {
-                formularios.BringToFront();
+                MessageBox.Show("ACCESO UNICAMENTE PARA SUPER USUARIOS, SECCIÓN ACADÉMICA, ARCHIVO O COMANDANCIA DEL CUERPO DE CADETES Y OFICIALES SIN INSTRUCCIÓN", "ACCESO DENEGADO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 

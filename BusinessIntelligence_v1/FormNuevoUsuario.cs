@@ -29,15 +29,13 @@ namespace BusinessIntelligence_v1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form formulario1 = new inicioSesion();
-            formulario1.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Form formulario1 = new Form1();
-            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" || textBox5.Text == "")
+            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" || textBox5.Text == "" || comboBox1.SelectedIndex == -1 || comboBox2.SelectedIndex == -1)
             {
                 MessageBox.Show("Llena todos los campos");
             }
@@ -48,19 +46,13 @@ namespace BusinessIntelligence_v1
                     conn.Open();
                     cmd = new MySqlCommand();
                     cmd.Connection = conn;
-                    cmd.CommandText = ("insert into usuarios(matricula, nombre, apellido_paterno, apellido_materno, contrasena) values('" + textBox4.Text + "', '" + textBox1.Text + "', '" + textBox2.Text + "', '" + textBox3.Text + "', '" + textBox5.Text + "');");
+                    cmd.CommandText = ("insert into usuarios(matricula, nombre, apellido_paterno, apellido_materno, contrasena, tipo_usuario, area) " +
+                        "values('" + textBox4.Text + "', '" + textBox1.Text + "', '" + textBox2.Text + "', '" + textBox3.Text + "', '" + textBox5.Text + "', '" + comboBox1.Text + "', '" + comboBox2.Text + "');");
                     cmd.ExecuteNonQuery();
                     conn.Close();
 
                     MessageBox.Show("El usuario se agregó con éxito");
-                    textBox1.Text = "";
-                    textBox2.Text = "";
-                    textBox3.Text = "";
-                    textBox4.Text = "";
-                    textBox5.Text = "";
-
-                    formulario1.Show();
-                    this.Hide();
+                    this.Close();
                 }
                 catch (Exception ex)
                 {
@@ -82,6 +74,30 @@ namespace BusinessIntelligence_v1
         {
             BusinessIntelligence_v1.ConexionBD conexion = new BusinessIntelligence_v1.ConexionBD();
             conn = conexion.ConectarMysql();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.Text == "USUARIO")
+            {
+                comboBox2.Items.Clear();
+                comboBox2.Items.Add("SECCIÓN ACADÉMICA");
+                comboBox2.Items.Add("SECCIÓN PEDAGÓGICA");
+                comboBox2.Items.Add("ARCHIVO");
+                comboBox2.Items.Add("PELOTÓN DE SANIDAD");
+                comboBox2.Items.Add("COMANDANCIA DEL CUERPO DE CADETES Y OFICIALES SIN INSTRUCCIÓN");
+            }
+            else if (comboBox1.Text == "SUPERUSUARIO")
+            {
+                comboBox2.Items.Clear();
+                comboBox2.Items.Add("DIRECCIÓN");
+                comboBox2.Items.Add("SUBSECCIÓN DE ESTADÍSTICA");
+            }
+        }
+
+        private void FormNuevoUsuario_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
         }
     }
 }

@@ -16,8 +16,11 @@ namespace BusinessIntelligence_v1
         public Form1()
         {
             InitializeComponent();
-            AbrirFormularios<FormInicio>();
         }
+
+        private MySqlConnection conn;
+        private MySqlCommand cmd;
+        private string sql;
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -58,7 +61,26 @@ namespace BusinessIntelligence_v1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            AbrirFormularios<FormInicio>();
+            FormInicio formularios;
+            formularios = panel2.Controls.OfType<FormInicio>().FirstOrDefault();
+            if (formularios == null)
+            {
+                formularios = new FormInicio
+                {
+                    TopLevel = false,
+                    Dock = DockStyle.Fill
+                };
+                panel2.Controls.Add(formularios);
+                panel2.Tag = formularios;
+                formularios.textBox1.Text = textBox1.Text;
+                formularios.textBox2.Text = textBox2.Text;
+                formularios.Show();
+                formularios.BringToFront();
+            }
+            else
+            {
+                formularios.BringToFront();
+            }
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -88,17 +110,62 @@ namespace BusinessIntelligence_v1
 
         private void button6_Click(object sender, EventArgs e)
         {
-            AbrirFormularios<FormTablaAdmins>();
+            if (textBox1.Text == "SUPERUSUARIO")
+            {
+                AbrirFormularios<FormTablaAdmins>();
+            }
+            else
+            {
+                MessageBox.Show("ACCESO UNICAMENTE PARA SUPER USUARIOS", "ACCESO DENEGADO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            AbrirFormularios<FormAgregarDiscente>();
+            if (textBox1.Text == "SUPERUSUARIO" || textBox2.Text == "SECCIÓN ACADÉMICA" || textBox2.Text == "ARCHIVO")
+            {
+                AbrirFormularios<FormAgregarDiscente>();
+            }
+            else
+            {
+                MessageBox.Show("ACCESO UNICAMENTE PARA SUPER USUARIOS, SECCIÓN ACADÉMICA O ARCHIVO", "ACCESO DENEGADO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            AbrirFormularios<FormAgregarCalificaciones>();
+            if (textBox1.Text == "SUPERUSUARIO" || textBox2.Text == "SECCIÓN ACADÉMICA")
+            {
+                AbrirFormularios<FormAgregarCalificaciones>();
+            }
+            else
+            {
+                MessageBox.Show("ACCESO UNICAMENTE PARA SUPER USUARIOS O SECCIÓN ACADÉMICA", "ACCESO DENEGADO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "SUPERUSUARIO")
+            {
+                Form formulario1 = new FormNuevoUsuario();
+                formulario1.Show();
+            }
+            else
+            {
+                MessageBox.Show("ACCESO UNICAMENTE PARA SUPER USUARIOS", "ACCESO DENEGADO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            BusinessIntelligence_v1.ConexionBD conexion = new BusinessIntelligence_v1.ConexionBD();
+            conn = conexion.ConectarMysql();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

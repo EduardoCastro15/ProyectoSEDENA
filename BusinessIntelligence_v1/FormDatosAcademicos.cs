@@ -309,11 +309,6 @@ namespace BusinessIntelligence_v1
                         textBox58.Text = sumaEspe.ToString();
                     }
                 }
-                else
-                {
-                    MessageBox.Show("No se encontraron registros");
-                }
-                conn.Close();
             }
             catch (Exception ex)
             {
