@@ -60,7 +60,7 @@ namespace BusinessIntelligence_v1
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(171)))), ((int)(((byte)(27)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(171)))), ((int)(((byte)(142)))));
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.textBox2);
@@ -132,6 +132,7 @@ namespace BusinessIntelligence_v1
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Gray;
             this.pictureBox3.Image = global::BusinessIntelligence_v1.Properties.Resources.logoheader;
             this.pictureBox3.Location = new System.Drawing.Point(229, 3);
             this.pictureBox3.Name = "pictureBox3";
@@ -142,6 +143,7 @@ namespace BusinessIntelligence_v1
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pictureBox2.Image = global::BusinessIntelligence_v1.Properties.Resources._640px_SEDENA_Logo_2019_svg;
             this.pictureBox2.Location = new System.Drawing.Point(3, 3);
             this.pictureBox2.Name = "pictureBox2";
